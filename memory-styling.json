@@ -1,0 +1,4418 @@
+{
+  "meta": {
+    "url": "https://higgsfield.ai/supercomputer/memory",
+    "title": "Super Computer | Higgsfield",
+    "description": "Describe what you want. Higgsfield Supercomputer plans it, picks the models, and renders it. A full AI creative team in one chat. No prompts, no presets, no tool-hopping.",
+    "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover",
+    "extractedAt": "2026-05-18T06:44:27.583Z",
+    "screenSize": {
+      "width": 1920,
+      "height": 872
+    },
+    "devicePixelRatio": 2
+  },
+  "tokens": {
+    "colors": {
+      "text": [
+        "rgb(255, 255, 255)",
+        "rgb(0, 0, 0)",
+        "rgb(247, 247, 248)",
+        "color(srgb 1 1 1 / 0.3)",
+        "rgba(255, 255, 255, 0.8)",
+        "rgba(255, 255, 255, 0.5)",
+        "rgb(137, 138, 139)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+        "rgb(43, 45, 47)",
+        "rgb(156, 230, 243)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(113, 118, 132)",
+        "rgba(255, 255, 255, 0.1)",
+        "rgba(255, 255, 255, 0.2)",
+        "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+        "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+        "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "rgb(115, 116, 117)",
+        "rgb(19, 21, 23)"
+      ],
+      "backgrounds": [
+        "rgb(19, 21, 23)",
+        "rgb(19, 21, 23) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgb(21, 21, 23)",
+        "rgb(21, 21, 23) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgb(26, 26, 28)",
+        "rgb(26, 26, 28) none repeat scroll 0% 0% / auto padding-box border-box",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.05)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.05) none repeat scroll 0% 0% / auto padding-box border-box",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.03)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.03) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgba(0, 0, 0, 0) linear-gradient(to top, rgb(26, 26, 28) 0%, rgba(0, 0, 0, 0) 100%) repeat scroll 0% 0% / auto padding-box border-box",
+        "oklab(0.880873 -0.0652866 -0.0372148 / 0.2)",
+        "oklab(0.880873 -0.0652866 -0.0372148 / 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.02)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.02) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgb(33, 33, 35)",
+        "rgb(33, 33, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color(srgb 0.109804 0.109804 0.117647 / 0.8)",
+        "color(srgb 0.109804 0.109804 0.117647 / 0.8) none repeat scroll 0% 0% / auto padding-box border-box",
+        "rgb(156, 230, 243)",
+        "rgb(156, 230, 243) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color(srgb 0.109804 0.109804 0.117647 / 0.7)",
+        "color(srgb 0.109804 0.109804 0.117647 / 0.7) none repeat scroll 0% 0% / auto padding-box border-box"
+      ],
+      "borders": [
+        "rgb(255, 255, 255)",
+        "rgb(247, 247, 248)",
+        "color(srgb 1 1 1 / 0.3)",
+        "rgba(255, 255, 255, 0.8)",
+        "rgba(255, 255, 255, 0.5)",
+        "rgb(137, 138, 139)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+        "rgb(43, 45, 47)",
+        "rgba(217, 217, 217, 0.04)",
+        "rgb(156, 230, 243)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(113, 118, 132)",
+        "rgba(255, 255, 255, 0.1)",
+        "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+        "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+        "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "rgba(0, 0, 0, 0.09)",
+        "rgb(33, 33, 35)",
+        "rgb(0, 0, 0)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.08)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.04)",
+        "rgb(19, 21, 23)",
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.05)"
+      ]
+    },
+    "typography": {
+      "headings": {},
+      "body": {
+        "fontSize": "16px",
+        "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(247, 247, 248)",
+        "background": "rgb(21, 21, 23) none repeat scroll 0% 0% / auto padding-box border-box"
+      },
+      "paragraph": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "marginBottom": "0px",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    "spacing": {
+      "paddings": [
+        "2px",
+        "4px",
+        "6px",
+        "8px",
+        "10px",
+        "12px",
+        "14px",
+        "16px",
+        "32px"
+      ],
+      "margins": [
+        "-8px",
+        "-1px",
+        "2px",
+        "4px",
+        "10px",
+        "12px",
+        "32px",
+        "258px"
+      ],
+      "gaps": [
+        "2px",
+        "3px",
+        "4px",
+        "6px",
+        "8px",
+        "16px"
+      ]
+    },
+    "radii": [
+      "4px",
+      "10px",
+      "20px",
+      "24px",
+      "28px",
+      "100%",
+      "1.67772e+07px"
+    ],
+    "shadows": [
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 2px 8px 0px",
+      "rgba(0, 0, 0, 0.25) 0px 0px 12px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(79, 206, 228, 0.48) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 2px 24px 0px, rgba(0, 0, 0, 0.1) 0px 8px 48px 6px, rgba(0, 0, 0, 0.08) 0px 24px 96px 16px"
+    ],
+    "zIndex": [
+      -10,
+      0,
+      1,
+      2,
+      3,
+      4,
+      10,
+      30,
+      50,
+      51,
+      999,
+      9999,
+      2147483647
+    ],
+    "transitions": {
+      "transitions": [
+        "all",
+        "height 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+        "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+        "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+        "filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+        "0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+        "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "grid-template-rows 0.18s cubic-bezier(0, 0, 0.2, 1), opacity 0.18s cubic-bezier(0, 0, 0.2, 1)",
+        "color 0.2s",
+        "background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+        "max-width 0.4s cubic-bezier(0.32, 0.72, 0, 1), opacity 0.4s cubic-bezier(0.32, 0.72, 0, 1), transform 0.4s cubic-bezier(0.32, 0.72, 0, 1)",
+        "opacity 0.4s cubic-bezier(0.32, 0.72, 0, 1), transform 0.4s cubic-bezier(0.32, 0.72, 0, 1)",
+        "opacity 0.15s",
+        "transform 0.25s",
+        "0.7s cubic-bezier(0, 0, 0.2, 1)",
+        "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+        "0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+      ],
+      "animations": [
+        "none",
+        "1.45s ease-in-out infinite supercomputer-dot",
+        "1.45s ease-in-out 0.16s infinite supercomputer-dot",
+        "1.45s ease-in-out 0.32s infinite supercomputer-dot",
+        "1.45s ease-in-out 0.48s infinite supercomputer-dot"
+      ],
+      "keyframes": {
+        "Toastify__trackProgress": [
+          {
+            "key": "0%",
+            "style": "transform: scaleX(1);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: scaleX(0);"
+          }
+        ],
+        "Toastify__bounceInRight": [
+          {
+            "key": "0%, 60%, 75%, 90%, 100%",
+            "style": "animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);"
+          },
+          {
+            "key": "0%",
+            "style": "opacity: 0; transform: translate3d(3000px, 0px, 0px);"
+          },
+          {
+            "key": "60%",
+            "style": "opacity: 1; transform: translate3d(-25px, 0px, 0px);"
+          },
+          {
+            "key": "75%",
+            "style": "transform: translate3d(10px, 0px, 0px);"
+          },
+          {
+            "key": "90%",
+            "style": "transform: translate3d(-5px, 0px, 0px);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: none;"
+          }
+        ],
+        "Toastify__bounceOutRight": [
+          {
+            "key": "20%",
+            "style": "opacity: 1; transform: translate3d(-20px,var(--y),0);"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0; transform: translate3d(2000px,var(--y),0);"
+          }
+        ],
+        "Toastify__bounceInLeft": [
+          {
+            "key": "0%, 60%, 75%, 90%, 100%",
+            "style": "animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);"
+          },
+          {
+            "key": "0%",
+            "style": "opacity: 0; transform: translate3d(-3000px, 0px, 0px);"
+          },
+          {
+            "key": "60%",
+            "style": "opacity: 1; transform: translate3d(25px, 0px, 0px);"
+          },
+          {
+            "key": "75%",
+            "style": "transform: translate3d(-10px, 0px, 0px);"
+          },
+          {
+            "key": "90%",
+            "style": "transform: translate3d(5px, 0px, 0px);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: none;"
+          }
+        ],
+        "Toastify__bounceOutLeft": [
+          {
+            "key": "20%",
+            "style": "opacity: 1; transform: translate3d(20px,var(--y),0);"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0; transform: translate3d(-2000px,var(--y),0);"
+          }
+        ],
+        "Toastify__bounceInUp": [
+          {
+            "key": "0%, 60%, 75%, 90%, 100%",
+            "style": "animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);"
+          },
+          {
+            "key": "0%",
+            "style": "opacity: 0; transform: translate3d(0px, 3000px, 0px);"
+          },
+          {
+            "key": "60%",
+            "style": "opacity: 1; transform: translate3d(0px, -20px, 0px);"
+          },
+          {
+            "key": "75%",
+            "style": "transform: translate3d(0px, 10px, 0px);"
+          },
+          {
+            "key": "90%",
+            "style": "transform: translate3d(0px, -5px, 0px);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translateZ(0px);"
+          }
+        ],
+        "Toastify__bounceOutUp": [
+          {
+            "key": "20%",
+            "style": "transform: translate3d(0,calc(var(--y) - 10px),0);"
+          },
+          {
+            "key": "40%, 45%",
+            "style": "opacity: 1; transform: translate3d(0,calc(var(--y) + 20px),0);"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0; transform: translate3d(0px, -2000px, 0px);"
+          }
+        ],
+        "Toastify__bounceInDown": [
+          {
+            "key": "0%, 60%, 75%, 90%, 100%",
+            "style": "animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);"
+          },
+          {
+            "key": "0%",
+            "style": "opacity: 0; transform: translate3d(0px, -3000px, 0px);"
+          },
+          {
+            "key": "60%",
+            "style": "opacity: 1; transform: translate3d(0px, 25px, 0px);"
+          },
+          {
+            "key": "75%",
+            "style": "transform: translate3d(0px, -10px, 0px);"
+          },
+          {
+            "key": "90%",
+            "style": "transform: translate3d(0px, 5px, 0px);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: none;"
+          }
+        ],
+        "Toastify__bounceOutDown": [
+          {
+            "key": "20%",
+            "style": "transform: translate3d(0,calc(var(--y) - 10px),0);"
+          },
+          {
+            "key": "40%, 45%",
+            "style": "opacity: 1; transform: translate3d(0,calc(var(--y) + 20px),0);"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0; transform: translate3d(0px, 2000px, 0px);"
+          }
+        ],
+        "Toastify__zoomIn": [
+          {
+            "key": "0%",
+            "style": "opacity: 0; transform: scale3d(0.3, 0.3, 0.3);"
+          },
+          {
+            "key": "50%",
+            "style": "opacity: 1;"
+          }
+        ],
+        "Toastify__zoomOut": [
+          {
+            "key": "0%",
+            "style": "opacity: 1;"
+          },
+          {
+            "key": "50%",
+            "style": "opacity: 0; transform: translate3d(0,var(--y),0) scale3d(.3,.3,.3);"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0;"
+          }
+        ],
+        "Toastify__flipIn": [
+          {
+            "key": "0%",
+            "style": "transform: perspective(400px) rotateX(90deg); animation-timing-function: ease-in; opacity: 0;"
+          },
+          {
+            "key": "40%",
+            "style": "transform: perspective(400px) rotateX(-20deg); animation-timing-function: ease-in;"
+          },
+          {
+            "key": "60%",
+            "style": "transform: perspective(400px) rotateX(10deg); opacity: 1;"
+          },
+          {
+            "key": "80%",
+            "style": "transform: perspective(400px) rotateX(-5deg);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: perspective(400px);"
+          }
+        ],
+        "Toastify__flipOut": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,var(--y),0) perspective(400px);"
+          },
+          {
+            "key": "30%",
+            "style": "transform: translate3d(0,var(--y),0) perspective(400px) rotateX(-20deg); opacity: 1;"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,var(--y),0) perspective(400px) rotateX(90deg); opacity: 0;"
+          }
+        ],
+        "Toastify__slideInRight": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(110%, 0px, 0px); visibility: visible;"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          }
+        ],
+        "Toastify__slideInLeft": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(-110%, 0px, 0px); visibility: visible;"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          }
+        ],
+        "Toastify__slideInUp": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0px, 110%, 0px); visibility: visible;"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          }
+        ],
+        "Toastify__slideInDown": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0px, -110%, 0px); visibility: visible;"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          }
+        ],
+        "Toastify__slideOutRight": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          },
+          {
+            "key": "100%",
+            "style": "visibility: hidden; transform: translate3d(110%,var(--y),0);"
+          }
+        ],
+        "Toastify__slideOutLeft": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          },
+          {
+            "key": "100%",
+            "style": "visibility: hidden; transform: translate3d(-110%,var(--y),0);"
+          }
+        ],
+        "Toastify__slideOutDown": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          },
+          {
+            "key": "100%",
+            "style": "visibility: hidden; transform: translate3d(0px, 500px, 0px);"
+          }
+        ],
+        "Toastify__slideOutUp": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,var(--y),0);"
+          },
+          {
+            "key": "100%",
+            "style": "visibility: hidden; transform: translate3d(0px, -500px, 0px);"
+          }
+        ],
+        "Toastify__spin": [
+          {
+            "key": "0%",
+            "style": "transform: rotate(0deg);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: rotate(360deg);"
+          }
+        ],
+        "fadeIn": [
+          {
+            "key": "0%",
+            "style": "opacity: 0;"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 1;"
+          }
+        ],
+        "fadeOut": [
+          {
+            "key": "100%",
+            "style": "opacity: 0;"
+          }
+        ],
+        "slideFromBottom": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,var(--initial-transform,100%),0);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0px, 0px, 0px);"
+          }
+        ],
+        "slideToBottom": [
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,var(--initial-transform,100%),0);"
+          }
+        ],
+        "slideFromTop": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(0,calc(var(--initial-transform,100%) * -1),0);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0px, 0px, 0px);"
+          }
+        ],
+        "slideToTop": [
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0,calc(var(--initial-transform,100%) * -1),0);"
+          }
+        ],
+        "slideFromLeft": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(calc(var(--initial-transform,100%) * -1),0,0);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0px, 0px, 0px);"
+          }
+        ],
+        "slideToLeft": [
+          {
+            "key": "100%",
+            "style": "transform: translate3d(calc(var(--initial-transform,100%) * -1),0,0);"
+          }
+        ],
+        "slideFromRight": [
+          {
+            "key": "0%",
+            "style": "transform: translate3d(var(--initial-transform,100%),0,0);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate3d(0px, 0px, 0px);"
+          }
+        ],
+        "slideToRight": [
+          {
+            "key": "100%",
+            "style": "transform: translate3d(var(--initial-transform,100%),0,0);"
+          }
+        ],
+        "slide-in-one-tap": [
+          {
+            "key": "0%",
+            "style": "transform: translateY(80px);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translateY(0px);"
+          }
+        ],
+        "yjWYeSBhppaYr8pyCDGP": [
+          {
+            "key": "0%",
+            "style": "transform: rotate(360deg);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: rotate(0deg);"
+          }
+        ],
+        "agent-skeleton-shimmer": [
+          {
+            "key": "0%",
+            "style": "background-position: 200% 0px;"
+          },
+          {
+            "key": "100%",
+            "style": "background-position: -200% 0px;"
+          }
+        ],
+        "expandBox": [
+          {
+            "key": "0%",
+            "style": "width: 10%; margin-left: 0px; overflow: hidden; top: 90%; height: 5%;"
+          },
+          {
+            "key": "100%",
+            "style": "width: 95%; margin-left: auto; overflow: hidden; top: 5%; height: 90%;"
+          }
+        ],
+        "mdc-ripple-fg-radius-in": [
+          {
+            "key": "0%",
+            "style": "animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transform: translate(0px) scale(1);"
+          },
+          {
+            "key": "100%",
+            "style": "transform: translate(0px) scale(1);"
+          }
+        ],
+        "mdc-ripple-fg-opacity-in": [
+          {
+            "key": "0%",
+            "style": "animation-timing-function: linear; opacity: 0;"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0.1;"
+          }
+        ],
+        "mdc-ripple-fg-opacity-out": [
+          {
+            "key": "0%",
+            "style": "animation-timing-function: linear; opacity: 0.1;"
+          },
+          {
+            "key": "100%",
+            "style": "opacity: 0;"
+          }
+        ]
+      }
+    },
+    "breakpoints": {
+      "print": [
+        ".HrpQab",
+        "#cookiescript_injected"
+      ],
+      "only screen and (max-width: 480px)": [
+        ".Toastify__toast-container",
+        ".Toastify__toast-container--top-left, .Toastify__toast-container--top-center, .Toastify__toast-container--top-right",
+        ".Toastify__toast-container--bottom-left, .Toastify__toast-container--bottom-center, .Toastify__toast-container--bottom-right"
+      ],
+      "(hover: hover) and (pointer: fine)": [
+        "[data-vaul-drawer]"
+      ],
+      "(pointer: fine)": [],
+      "screen and (min-width:0\\0) and (min-resolution: 0.001dpcm)": [
+        ".cookiescript_checkbox_label",
+        "#cookiescript_accept, #cookiescript_reject, #cookiescript_save",
+        "#cookiescript_buttons",
+        "#cookiescript_iab_type > div"
+      ],
+      "only screen and (max-width: 440px)": [
+        ".cookiescript_fsd_header",
+        ".cookiescript_fsd_footer",
+        "#cookiescript_fsd_wrapper",
+        ".cookiescript_fsd_main_info",
+        ".cookiescript_fsd_description",
+        "#cookiescript_injected",
+        "#cookiescript_description, #cookiescript_buttons, #cookiescript_manage_wrap",
+        "#cookiescript_checkboxs"
+      ],
+      "screen and (forced-colors: active), (-ms-high-contrast:active)": [
+        "#cookiescript_injected .mdc-switch:disabled .mdc-switch__handle::after, #cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__handle::after",
+        "#cookiescript_injected .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icons, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:disabled .mdc-switch__icons",
+        "#cookiescript_injected .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icons, #cookiescript_injected_fsd .mdc-switch.mdc-switch--unselected:disabled .mdc-switch__icons"
+      ]
+    }
+  },
+  "cssVariables": {
+    "colors": {
+      "--toastify-color-light": "#fff",
+      "--toastify-color-dark": "#121212",
+      "--toastify-color-info": "#3498db",
+      "--toastify-color-success": "#07bc0c",
+      "--toastify-color-warning": "#f1c40f",
+      "--toastify-color-error": "hsl(6, 78%, 57%)",
+      "--toastify-color-transparent": "rgba(255, 255, 255, .7)",
+      "--toastify-icon-color-info": "var(--toastify-color-info)",
+      "--toastify-icon-color-success": "var(--toastify-color-success)",
+      "--toastify-icon-color-warning": "var(--toastify-color-warning)",
+      "--toastify-icon-color-error": "var(--toastify-color-error)",
+      "--toastify-toast-background": "#fff",
+      "--toastify-text-color-light": "#757575",
+      "--toastify-text-color-dark": "#fff",
+      "--toastify-text-color-info": "#fff",
+      "--toastify-text-color-success": "#fff",
+      "--toastify-text-color-warning": "#fff",
+      "--toastify-text-color-error": "#fff",
+      "--toastify-spinner-color": "#616161",
+      "--toastify-spinner-color-empty-area": "#e0e0e0",
+      "--toastify-color-progress-light": "linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55)",
+      "--toastify-color-progress-dark": "#bb86fc",
+      "--toastify-color-progress-info": "var(--toastify-color-info)",
+      "--toastify-color-progress-success": "var(--toastify-color-success)",
+      "--toastify-color-progress-warning": "var(--toastify-color-warning)",
+      "--toastify-color-progress-error": "var(--toastify-color-error)",
+      "--toastify-color-progress-bgo": ".2"
+    },
+    "spacing": {
+      "--toastify-container-width": "fit-content",
+      "--toastify-toast-width": "320px",
+      "--toastify-toast-padding": "14px",
+      "--toastify-toast-min-height": "64px",
+      "--toastify-toast-max-height": "800px"
+    },
+    "radii": {
+      "--toastify-toast-bd-radius": "6px"
+    },
+    "shadows": {
+      "--toastify-toast-shadow": "0px 4px 12px rgba(0, 0, 0, .1)"
+    },
+    "fonts": {
+      "--toastify-font-family": "sans-serif"
+    },
+    "other": {
+      "--toastify-toast-offset": "16px",
+      "--toastify-toast-top": "max(var(--toastify-toast-offset), env(safe-area-inset-top))",
+      "--toastify-toast-right": "max(var(--toastify-toast-offset), env(safe-area-inset-right))",
+      "--toastify-toast-left": "max(var(--toastify-toast-offset), env(safe-area-inset-left))",
+      "--toastify-toast-bottom": "max(var(--toastify-toast-offset), env(safe-area-inset-bottom))",
+      "--toastify-z-index": "9999"
+    },
+    "all": {
+      "--toastify-color-light": "#fff",
+      "--toastify-color-dark": "#121212",
+      "--toastify-color-info": "#3498db",
+      "--toastify-color-success": "#07bc0c",
+      "--toastify-color-warning": "#f1c40f",
+      "--toastify-color-error": "hsl(6, 78%, 57%)",
+      "--toastify-color-transparent": "rgba(255, 255, 255, .7)",
+      "--toastify-icon-color-info": "var(--toastify-color-info)",
+      "--toastify-icon-color-success": "var(--toastify-color-success)",
+      "--toastify-icon-color-warning": "var(--toastify-color-warning)",
+      "--toastify-icon-color-error": "var(--toastify-color-error)",
+      "--toastify-container-width": "fit-content",
+      "--toastify-toast-width": "320px",
+      "--toastify-toast-offset": "16px",
+      "--toastify-toast-top": "max(var(--toastify-toast-offset), env(safe-area-inset-top))",
+      "--toastify-toast-right": "max(var(--toastify-toast-offset), env(safe-area-inset-right))",
+      "--toastify-toast-left": "max(var(--toastify-toast-offset), env(safe-area-inset-left))",
+      "--toastify-toast-bottom": "max(var(--toastify-toast-offset), env(safe-area-inset-bottom))",
+      "--toastify-toast-background": "#fff",
+      "--toastify-toast-padding": "14px",
+      "--toastify-toast-min-height": "64px",
+      "--toastify-toast-max-height": "800px",
+      "--toastify-toast-bd-radius": "6px",
+      "--toastify-toast-shadow": "0px 4px 12px rgba(0, 0, 0, .1)",
+      "--toastify-font-family": "sans-serif",
+      "--toastify-z-index": "9999",
+      "--toastify-text-color-light": "#757575",
+      "--toastify-text-color-dark": "#fff",
+      "--toastify-text-color-info": "#fff",
+      "--toastify-text-color-success": "#fff",
+      "--toastify-text-color-warning": "#fff",
+      "--toastify-text-color-error": "#fff",
+      "--toastify-spinner-color": "#616161",
+      "--toastify-spinner-color-empty-area": "#e0e0e0",
+      "--toastify-color-progress-light": "linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55)",
+      "--toastify-color-progress-dark": "#bb86fc",
+      "--toastify-color-progress-info": "var(--toastify-color-info)",
+      "--toastify-color-progress-success": "var(--toastify-color-success)",
+      "--toastify-color-progress-warning": "var(--toastify-color-warning)",
+      "--toastify-color-progress-error": "var(--toastify-color-error)",
+      "--toastify-color-progress-bgo": ".2"
+    }
+  },
+  "fonts": {
+    "families": [
+      "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+    ],
+    "sizes": [
+      "10px",
+      "12px",
+      "14px",
+      "16px",
+      "24px"
+    ],
+    "weights": [
+      "400",
+      "500",
+      "600"
+    ],
+    "lineHeights": [
+      "14px",
+      "18px",
+      "20px",
+      "24px",
+      "30px"
+    ],
+    "letterSpacings": [
+      "0%",
+      "-1%"
+    ],
+    "fontFaceDeclarations": [
+      {
+        "family": "Binance",
+        "src": "url(\"chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf\") format(\"opentype\")",
+        "weight": "400",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "Binance",
+        "src": "url(\"chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf\") format(\"opentype\")",
+        "weight": "500",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "Binance",
+        "src": "url(\"chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf\") format(\"opentype\")",
+        "weight": "600",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "DMSans",
+        "src": "url(\"chrome-extension://meimoidfecamngeoanhnpdjjdcefoldn/assets/fonts/DMSans-Regular.ttf\")",
+        "weight": "normal",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "PoppinsMedium",
+        "src": "url(\"chrome-extension://meimoidfecamngeoanhnpdjjdcefoldn/assets/fonts/Poppins-Medium.otf\")",
+        "weight": "normal",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "PoppinsRegular",
+        "src": "url(\"chrome-extension://meimoidfecamngeoanhnpdjjdcefoldn/assets/fonts/Poppins-Regular.otf\")",
+        "weight": "normal",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "Roboto",
+        "src": "url(\"chrome-extension://meimoidfecamngeoanhnpdjjdcefoldn/assets/fonts/Roboto-Regular.ttf\")",
+        "weight": "normal",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      },
+      {
+        "family": "Inter",
+        "src": "url(\"chrome-extension://meimoidfecamngeoanhnpdjjdcefoldn/assets/fonts/Inter-VariableFont_opsz,wght.ttf\")",
+        "weight": "normal",
+        "style": "normal",
+        "display": "auto",
+        "unicodeRange": ""
+      }
+    ],
+    "externalFontLinks": []
+  },
+  "layout": {
+    "flexboxContainers": [
+      {
+        "selector": "div.flex.h-dvh.w-full.overflow-hidden",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 1920,
+        "height": 872
+      },
+      {
+        "selector": "div.flex.h-full.flex-col.overflow-hidden",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 199,
+        "height": 872
+      },
+      {
+        "selector": "div.flex.shrink-0.items-center.gap-1",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 199,
+        "height": 44
+      },
+      {
+        "selector": "div.flex.flex-col.rounded-[20px].p-1",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 44
+      },
+      {
+        "selector": "button.flex.h-9.w-full.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "2px",
+        "width": 179,
+        "height": 36
+      },
+      {
+        "selector": "div.flex.min-w-0.items-center.gap-1.5",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "6px",
+        "width": 117.81,
+        "height": 20
+      },
+      {
+        "selector": "span.flex.size-5.shrink-0.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 20,
+        "height": 20
+      },
+      {
+        "selector": "button.flex.h-9.w-full.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "6px",
+        "width": 179,
+        "height": 36
+      },
+      {
+        "selector": "span.flex.size-5.shrink-0.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 20,
+        "height": 20
+      },
+      {
+        "selector": "div.mt-2.5.flex.shrink-0.flex-col",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "2px",
+        "width": 199,
+        "height": 226
+      },
+      {
+        "selector": "button.group.relative.flex.h-9",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 36
+      },
+      {
+        "selector": "kbd.pointer-events-none.inline-flex.h-[18px].w-[18px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "kbd.pointer-events-none.inline-flex.h-[18px].w-[18px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "button.group.relative.flex.h-9",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 36
+      },
+      {
+        "selector": "kbd.pointer-events-none.inline-flex.h-[18px].w-[18px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "kbd.pointer-events-none.inline-flex.h-[18px].w-[18px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "button.group.relative.flex.h-9",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 36
+      },
+      {
+        "selector": "button.group.relative.flex.h-9",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 36
+      },
+      {
+        "selector": "button.group.relative.flex.h-9",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 36
+      },
+      {
+        "selector": "kbd.pointer-events-none.inline-flex.h-[18px].w-[18px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "kbd.pointer-events-none.inline-flex.h-[18px].w-[18px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "button.group.relative.flex.h-9",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 187,
+        "height": 36
+      },
+      {
+        "selector": "button.flex.h-full.w-full.items-end",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "alignItems": "flex-end",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 199,
+        "height": 36
+      },
+      {
+        "selector": "div.flex.flex-col.items-center.w-full",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 199,
+        "height": 149
+      },
+      {
+        "selector": "div.w-full.px-2.py-2.flex",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 199,
+        "height": 96
+      },
+      {
+        "selector": "a.flex.items-center.rounded-full!.border-[1.5px]",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 183,
+        "height": 32
+      },
+      {
+        "selector": "div.flex.items-center.gap-2",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 69.94,
+        "height": 20
+      },
+      {
+        "selector": "div.bg-[var(--color-sc-maze-glow)]/20.rounded-full.px-1.5.py-0.5",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 57.43,
+        "height": 18
+      },
+      {
+        "selector": "div.h-9.mb-1.flex.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 183,
+        "height": 36
+      },
+      {
+        "selector": "button.flex.min-w-0.max-w-full.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 88.41,
+        "height": 32
+      },
+      {
+        "selector": "button.flex.size-7.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 28,
+        "height": 28
+      },
+      {
+        "selector": "div.relative.flex.flex-1.min-w-0",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.relative.isolate.flex.flex-1",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.agent-memory-graph.size-full.flex.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.size-full.flex.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.size-full.flex.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.size-full.flex.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.size-full.flex.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.size-full.flex.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.flex.min-w-0.items-center.gap-1",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 86.6,
+        "height": 36
+      },
+      {
+        "selector": "button.button.button-xs.button-secondary.flex",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+        "gap": "4px",
+        "width": 36,
+        "height": 36
+      },
+      {
+        "selector": "div.flex.min-w-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 274.58,
+        "height": 32
+      },
+      {
+        "selector": "div.inline-flex.h-8.gap-[3px].rounded-full",
+        "display": "inline-flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "3px",
+        "width": 274.58,
+        "height": 32
+      },
+      {
+        "selector": "button.relative.isolate.flex.cursor-pointer",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 70.54,
+        "height": 28
+      },
+      {
+        "selector": "button.relative.isolate.flex.cursor-pointer",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 87.09,
+        "height": 28
+      },
+      {
+        "selector": "button.relative.isolate.flex.cursor-pointer",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 106.95,
+        "height": 28
+      },
+      {
+        "selector": "div.flex.min-w-0.items-center.justify-self-end",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 247.59,
+        "height": 32
+      },
+      {
+        "selector": "div.flex.items-center.gap-1.5",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "6px",
+        "width": 247.59,
+        "height": 32
+      },
+      {
+        "selector": "button.h-8.shrink-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 122.26,
+        "height": 32
+      },
+      {
+        "selector": "span.flex.items-start.pr-1",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "flex-start",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 62,
+        "height": 18
+      },
+      {
+        "selector": "span.flex.shrink-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "span.flex.shrink-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "span.flex.shrink-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "span.flex.shrink-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "span.flex.shrink-0.items-center.justify-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 18,
+        "height": 18
+      },
+      {
+        "selector": "div.absolute.inset-x-0.bottom-[calc(env(safe-area-inset-bottom,0px)+8px)].md:bottom-4",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 1721,
+        "height": 48
+      },
+      {
+        "selector": "div.relative.z-10.flex.flex-col",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 238,
+        "height": 100
+      },
+      {
+        "selector": "div.w-full.cursor-text.relative.overflow-hidden",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "16px",
+        "width": 238,
+        "height": 100
+      },
+      {
+        "selector": "div.relative.z-10.flex.flex-col",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "alignContent": "normal",
+        "gap": "16px",
+        "width": 206,
+        "height": 68
+      },
+      {
+        "selector": "div.flex.items-end.justify-between.gap-2",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "alignItems": "flex-end",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 206,
+        "height": 32
+      },
+      {
+        "selector": "div.flex.min-w-0.flex-1.items-center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "4px",
+        "width": 166,
+        "height": 32
+      },
+      {
+        "selector": "button.flex.items-center.hover:brightness-110.transition",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "normal",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "selector": "div.flex.shrink-0.items-center.gap-1.5",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "6px",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "selector": "button.button.button-sm.button-primary.p-0",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+        "gap": "6px",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "selector": "div.w-full.h-full.rounded-full.p-2",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "alignContent": "normal",
+        "gap": "8px",
+        "width": 238,
+        "height": 48
+      },
+      {
+        "selector": "button.button.button-sm.button-primary.p-0",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+        "gap": "6px",
+        "width": 32,
+        "height": 32
+      }
+    ],
+    "gridContainers": [
+      {
+        "selector": "body.__variable_9ddfec.__variable_5e589c.__variable_4c8d7f.__variable_bc705c",
+        "display": "grid",
+        "gridTemplateColumns": "1920px",
+        "gridTemplateRows": "0px 0px 872px 0px 0px 0px 0px",
+        "gridTemplateAreas": "\"header-promotion\" \"header\" \"main\" \"footer\" \"header-mobile\"",
+        "gap": "normal",
+        "columnGap": "normal",
+        "rowGap": "normal",
+        "justifyItems": "normal",
+        "alignItems": "normal",
+        "width": 1920,
+        "height": 872
+      },
+      {
+        "selector": "div.absolute.grid.justify-center.items-center",
+        "display": "grid",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "gridTemplateAreas": "none",
+        "gap": "normal",
+        "columnGap": "normal",
+        "rowGap": "normal",
+        "justifyItems": "normal",
+        "alignItems": "center",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "selector": "div.grid.w-full.grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)].items-center",
+        "display": "grid",
+        "gridTemplateColumns": "699.211px 274.578px 699.211px",
+        "gridTemplateRows": "36px",
+        "gridTemplateAreas": "none",
+        "gap": "16px",
+        "columnGap": "16px",
+        "rowGap": "16px",
+        "justifyItems": "normal",
+        "alignItems": "center",
+        "width": 1705,
+        "height": 36
+      },
+      {
+        "selector": "button.button.button-sm.button-primary-reverted.h-8",
+        "display": "grid",
+        "gridTemplateColumns": "16px 77.3359px",
+        "gridTemplateRows": "18px",
+        "gridTemplateAreas": "none",
+        "gap": "6px",
+        "columnGap": "6px",
+        "rowGap": "6px",
+        "justifyItems": "normal",
+        "alignItems": "center",
+        "width": 119.34,
+        "height": 32
+      }
+    ],
+    "positionedElements": [
+      {
+        "selector": "plasmo-csui",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "999",
+        "width": 1920,
+        "height": 872
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "18px",
+        "right": "163px",
+        "bottom": "2px",
+        "left": "8px",
+        "zIndex": "auto",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "18px",
+        "right": "163px",
+        "bottom": "2px",
+        "left": "8px",
+        "zIndex": "auto",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "18px",
+        "right": "163px",
+        "bottom": "2px",
+        "left": "8px",
+        "zIndex": "auto",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "18px",
+        "right": "163px",
+        "bottom": "2px",
+        "left": "8px",
+        "zIndex": "auto",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "18px",
+        "right": "163px",
+        "bottom": "2px",
+        "left": "8px",
+        "zIndex": "auto",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "18px",
+        "right": "163px",
+        "bottom": "2px",
+        "left": "8px",
+        "zIndex": "auto",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "selector": "div",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "130px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 199,
+        "height": 36
+      },
+      {
+        "selector": "div",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "36px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 199,
+        "height": 130
+      },
+      {
+        "selector": "div.pointer-events-none.absolute.inset-x-0.bottom-0",
+        "position": "absolute",
+        "top": "460px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 199,
+        "height": 24
+      },
+      {
+        "selector": "div.absolute.grid.justify-center.items-center",
+        "position": "absolute",
+        "top": "4px",
+        "right": "4px",
+        "bottom": "4px",
+        "left": "4px",
+        "zIndex": "auto",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "selector": "img.object-cover.size-full.object-cover",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 24,
+        "height": 24
+      },
+      {
+        "selector": "div.pointer-events-none.absolute.inset-y-0.right-0",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "198px",
+        "zIndex": "auto",
+        "width": 1,
+        "height": 872
+      },
+      {
+        "selector": "canvas.pointer-events-none.block.size-full.text-neutral-primary-reverted-10",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "-10",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.react-flow__renderer",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "4",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.react-flow__pane.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "1",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.react-flow__viewport.xyflow__viewport.react-flow__container",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "2",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "svg",
+        "position": "absolute",
+        "top": "0px",
+        "right": "-300px",
+        "bottom": "-150px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 300,
+        "height": 150
+      },
+      {
+        "selector": "div.react-flow__edgelabel-renderer",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.react-flow__nodes",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-avatar.nopan.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1649px",
+        "bottom": "800px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 72,
+        "height": 72
+      },
+      {
+        "selector": "img.object-cover.size-full.object-cover",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 72,
+        "height": 72
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-bottom.nodrag.nopan",
+        "position": "absolute",
+        "top": "36px",
+        "right": "30px",
+        "bottom": "30px",
+        "left": "36px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-title",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1464.03px",
+        "bottom": "812px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 256.97,
+        "height": 60
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-category.nopan.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1677px",
+        "bottom": "828px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-top.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-bottom.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1641px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 80,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1601px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 120,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1621px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 100,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-category.nopan.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1677px",
+        "bottom": "828px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-top.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-bottom.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1641px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 80,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1601px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 120,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1621px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 100,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-category.nopan.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1677px",
+        "bottom": "828px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-top.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-bottom.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1641px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 80,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1601px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 120,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1621px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 100,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-category.nopan.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1677px",
+        "bottom": "828px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-top.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-bottom.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1641px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 80,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1601px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 120,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1621px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 100,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-category.nopan.draggable",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1677px",
+        "bottom": "828px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 44,
+        "height": 44
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-top.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__handle.react-flow__handle-bottom.nodrag.nopan",
+        "position": "absolute",
+        "top": "22px",
+        "right": "16px",
+        "bottom": "16px",
+        "left": "22px",
+        "zIndex": "auto",
+        "width": 6,
+        "height": 6
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1641px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 80,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1601px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 120,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__node.react-flow__node-memory",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1621px",
+        "bottom": "838px",
+        "left": "0px",
+        "zIndex": "0",
+        "width": 100,
+        "height": 34
+      },
+      {
+        "selector": "div.react-flow__viewport-portal",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 1721,
+        "height": 872
+      },
+      {
+        "selector": "div",
+        "position": "absolute",
+        "top": "0px",
+        "right": "1722px",
+        "bottom": "873px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 1,
+        "height": 1
+      },
+      {
+        "selector": "div.absolute.inset-x-0.top-0.z-10",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "812px",
+        "left": "0px",
+        "zIndex": "10",
+        "width": 1721,
+        "height": 60
+      },
+      {
+        "selector": "span.absolute.inset-0.-z-10.rounded-full",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "-10",
+        "width": 87.09,
+        "height": 28
+      },
+      {
+        "selector": "div.absolute.inset-x-0.bottom-[calc(env(safe-area-inset-bottom,0px)+8px)].md:bottom-4",
+        "position": "absolute",
+        "top": "808px",
+        "right": "0px",
+        "bottom": "16px",
+        "left": "0px",
+        "zIndex": "10",
+        "width": 1721,
+        "height": 48
+      },
+      {
+        "selector": "div.absolute.inset-[-24px].-z-10",
+        "position": "absolute",
+        "top": "-24px",
+        "right": "-24px",
+        "bottom": "-24px",
+        "left": "-24px",
+        "zIndex": "-10",
+        "width": 802,
+        "height": 96
+      },
+      {
+        "selector": "div.pointer-events-none.absolute.top-0.left-0",
+        "position": "absolute",
+        "top": "0px",
+        "right": "112.344px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 93.66,
+        "height": 20
+      },
+      {
+        "selector": "div.absolute.inset-0",
+        "position": "absolute",
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "zIndex": "auto",
+        "width": 238,
+        "height": 48
+      }
+    ],
+    "bodyWidth": 1920,
+    "bodyHeight": 872,
+    "documentWidth": 1920
+  },
+  "components": [
+    {
+      "name": "buttons",
+      "count": 28,
+      "variants": [
+        {
+          "tag": "button",
+          "classes": "p-0 md:py-1 md:px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center transition group-hover:bg-surface-primary focus:bg-surface-primary text-text-secondary data-[active=\"true\"]:text-text-secondary data-[active=\"true\"]:bg-surface-primary active:opacity-60 hover:text-primary!",
+          "text": "Image",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "button",
+          "classes": "p-0 md:py-1 md:px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center transition group-hover:bg-surface-primary focus:bg-surface-primary text-text-secondary data-[active=\"true\"]:text-text-secondary data-[active=\"true\"]:bg-surface-primary active:opacity-60 hover:text-primary!",
+          "text": "Video",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "button",
+          "classes": "p-0 md:py-1 md:px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center transition group-hover:bg-surface-primary focus:bg-surface-primary text-text-secondary data-[active=\"true\"]:text-text-secondary data-[active=\"true\"]:bg-surface-primary active:opacity-60 hover:text-primary!",
+          "text": "Audio",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "button button-sm button-primary relative h-9! items-center justify-center gap-1! rounded-[10px]! py-2! pl-2! pr-3! border border-separator-card bg-neutral-primary-reverted-5 hidden md:grid group/header-profile-button-only:hidden!",
+          "text": "Assets",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(255, 255, 255, 0.05) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(255, 255, 255, 0.05)",
+            "border": "1px solid rgba(217, 217, 217, 0.04)",
+            "borderRadius": "10px",
+            "padding": "8px 12px 8px 8px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "rgba(0, 0, 0, 0.03) 0px 2px 1.5px -0.5px, rgba(255, 255, 255, 0.03) 0px 2px 3px 0px inset",
+            "transition": "filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "18px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "center"
+          }
+        },
+        {
+          "tag": "div",
+          "classes": "block md:hidden group/header-profile-button-only:hidden!",
+          "text": "Pricing30% OFF",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "inputs",
+      "count": 1,
+      "variants": [
+        {
+          "tag": "input",
+          "classes": "hidden",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "default",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "clip",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "baseline",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "links",
+      "count": 25,
+      "variants": [
+        {
+          "tag": "a",
+          "classes": "shrink-0 grid grid-flow-col-dense items-center gap-2 mr-2 transition hover:text-primary active:opacity-60 justify-start",
+          "text": "Higgsfield",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 8px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "8px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "flex-start"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "py-1 px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center whitespace-nowrap transition group-hover:bg-neutral-surface text-text-secondary data-[active=\"true\"]:text-text-primary active:opacity-60 hover:text-primary!",
+          "text": "Explore",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "py-1 px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center whitespace-nowrap transition group-hover:bg-neutral-surface text-text-secondary data-[active=\"true\"]:text-text-primary active:opacity-60 hover:text-primary! group/sc-link gap-1 text-[#4FCEE4]! hover:text-white! data-[active=true]:text-[#4FCEE4]!",
+          "text": "SupercomputerNew",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(79, 206, 228)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(79, 206, 228)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "py-1 px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center whitespace-nowrap transition group-hover:bg-neutral-surface text-text-secondary data-[active=\"true\"]:text-text-primary active:opacity-60 hover:text-primary!",
+          "text": "MCP & CLINew",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "py-1 px-1.5 rounded-[10px] text-sm-medium grid gap-1 grid-flow-col items-center whitespace-nowrap transition group-hover:bg-neutral-surface text-text-secondary data-[active=\"true\"]:text-text-primary active:opacity-60 hover:text-primary!",
+          "text": "Collab",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "10px",
+            "padding": "4px 6px 4px 6px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1), filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "images",
+      "count": 9,
+      "variants": [
+        {
+          "tag": "img",
+          "classes": "!w-4 !h-auto",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(0, 0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "18px",
+            "opacity": "1",
+            "overflow": "clip",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "img",
+          "classes": "object-cover size-full object-cover",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(0, 0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "clip",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "img",
+          "classes": "object-cover size-full object-cover",
+          "text": "",
+          "dimensions": {
+            "width": 24,
+            "height": 24
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(0, 0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "clip",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "img",
+          "classes": "object-cover size-full object-cover",
+          "text": "",
+          "dimensions": {
+            "width": 72,
+            "height": 72
+          },
+          "styles": {
+            "display": "block",
+            "position": "absolute",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(0, 0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "grab",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "clip",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "img",
+          "classes": "size-full object-cover",
+          "text": "",
+          "dimensions": {
+            "width": 15,
+            "height": 15
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "18px",
+            "opacity": "1",
+            "overflow": "clip",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cards",
+      "count": 4,
+      "variants": [
+        {
+          "tag": "a",
+          "classes": "button button-sm button-primary relative h-9! items-center justify-center gap-1! rounded-[10px]! py-2! pl-2! pr-3! border border-separator-card bg-neutral-primary-reverted-5 hidden md:grid group/header-profile-button-only:hidden!",
+          "text": "Assets",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(255, 255, 255, 0.05) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(255, 255, 255, 0.05)",
+            "border": "1px solid rgba(217, 217, 217, 0.04)",
+            "borderRadius": "10px",
+            "padding": "8px 12px 8px 8px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "rgba(0, 0, 0, 0.03) 0px 2px 1.5px -0.5px, rgba(255, 255, 255, 0.03) 0px 2px 3px 0px inset",
+            "transition": "filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "18px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "center"
+          }
+        },
+        {
+          "tag": "svg",
+          "classes": "",
+          "text": "",
+          "dimensions": {
+            "width": 103,
+            "height": 95
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(43, 45, 47)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(43, 45, 47)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "flex items-center rounded-full! border-[1.5px] border-separator-card bg-[var(--color-sc-maze-glow)]/20 hover:bg-[var(--color-sc-maze-glow)]/30 cursor-pointer transition-colors h-8 justify-between px-3",
+          "text": "Pricing\n30% OFF",
+          "dimensions": {
+            "width": 183,
+            "height": 32
+          },
+          "styles": {
+            "display": "flex",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "oklab(0.880873 -0.0652866 -0.0372148 / 0.2) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "oklab(0.880873 -0.0652866 -0.0372148 / 0.2)",
+            "border": "1.5px solid rgba(217, 217, 217, 0.04)",
+            "borderRadius": "1.67772e+07px",
+            "padding": "0px 12px 0px 12px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "space-between"
+          }
+        },
+        {
+          "tag": "div",
+          "classes": "grid auto-cols-fr items-center grid-flow-col py-3 md:hidden container contain-layout sticky p-1 -bottom-px z-50 w-full area-[header-mobile] backdrop-blur-xs bg-black-90 border-t border-separator-card",
+          "text": "HomeCommunityGenerateLibraryProfile",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "sticky",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0.9) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0.9)",
+            "border": "",
+            "borderRadius": "0px",
+            "padding": "12px 4px 12px 4px",
+            "margin": "auto auto auto auto",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "50",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "navbars",
+      "count": 7,
+      "variants": [
+        {
+          "tag": "header",
+          "classes": "text-caption-l transition-[height] area-[header-promotion] z-[3] bg-font-brand-secondary text-primary overflow-hidden h-0",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(156, 230, 243)",
+            "background": "rgb(255, 0, 91) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgb(255, 0, 91)",
+            "border": "0px solid rgb(156, 230, 243)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "height 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "3",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "header",
+          "classes": "h-16 md:h-16 w-full relative md:sticky area-[header]  contain-layout top-0 z-51 backdrop-blur-xs bg-black-90",
+          "text": "HiggsfieldExploreImageVideoAudioSupercomputerNewMCP & CLINew",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "sticky",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0.9) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0.9)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "rgb(0, 0, 0) 0px 16px 16px 0px inset",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "51",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "nav",
+          "classes": "grid grid-cols-[1fr_auto] md:grid-cols-[auto_1fr_auto] pr-4 h-full items-center relative container",
+          "text": "HiggsfieldExploreImageVideoAudioSupercomputerNewMCP & CLINew",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 16px 0px 16px",
+            "margin": "auto auto auto auto",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "a",
+          "classes": "button button-sm button-primary relative h-9! items-center justify-center gap-1! rounded-[10px]! py-2! pl-2! pr-3! border border-separator-card bg-neutral-primary-reverted-5 hidden md:grid group/header-profile-button-only:hidden!",
+          "text": "Assets",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "grid",
+            "position": "relative",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(255, 255, 255, 0.05) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(255, 255, 255, 0.05)",
+            "border": "1px solid rgba(217, 217, 217, 0.04)",
+            "borderRadius": "10px",
+            "padding": "8px 12px 8px 8px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "rgba(0, 0, 0, 0.03) 0px 2px 1.5px -0.5px, rgba(255, 255, 255, 0.03) 0px 2px 3px 0px inset",
+            "transition": "filter 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "18px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "4px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "justifyContent": "center"
+          }
+        },
+        {
+          "tag": "div",
+          "classes": "block md:hidden group/header-profile-button-only:hidden!",
+          "text": "Pricing30% OFF",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "footers",
+      "count": 1,
+      "variants": [
+        {
+          "tag": "footer",
+          "classes": "contain-layout w-full area-[footer]",
+          "text": "© 2026 Higgsfield AI™. All rights reserved.PressCreative Cha",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "none",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "auto",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "icons",
+      "count": 72,
+      "variants": [
+        {
+          "tag": "svg",
+          "classes": "",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(247, 247, 248)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(247, 247, 248)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "svg",
+          "classes": "",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "svg",
+          "classes": "",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "svg",
+          "classes": "",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        },
+        {
+          "tag": "svg",
+          "classes": "",
+          "text": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          },
+          "styles": {
+            "display": "block",
+            "position": "static",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontFamily": "ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "color": "rgba(255, 255, 255, 0.6)",
+            "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid rgba(255, 255, 255, 0.6)",
+            "borderRadius": "0px",
+            "padding": "0px 0px 0px 0px",
+            "margin": "0px 0px 0px 0px",
+            "boxShadow": "none",
+            "transition": "all",
+            "cursor": "pointer",
+            "textTransform": "none",
+            "letterSpacing": "0%",
+            "lineHeight": "20px",
+            "opacity": "1",
+            "overflow": "hidden",
+            "zIndex": "auto",
+            "gap": "normal",
+            "flexDirection": "row",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          }
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".HrpFrame__header:hover::before, .HrpFrame__header:active::before",
+      "styles": ".HrpFrame__header:hover::before, .HrpFrame__header:active::before { opacity: 0.3; }"
+    },
+    {
+      "selector": ".HrpFrame__header::before",
+      "styles": ".HrpFrame__header::before { content: \"\"; opacity: 0; background: rgb(165, 170, 177); border-radius: 4px; width: 65px; height: 5px; transition: opacity 0.15s; }"
+    },
+    {
+      "selector": ".HrpFrame_night .HrpFrame__header::before",
+      "styles": ".HrpFrame_night .HrpFrame__header::before { background: rgb(65, 74, 80); }"
+    },
+    {
+      "selector": ".HrpFrame__header:hover::before",
+      "styles": ".HrpFrame__header:hover::before { opacity: 1; }"
+    },
+    {
+      "selector": ".HrpQab::before",
+      "styles": ".HrpQab::before { content: \"\"; opacity: 0; pointer-events: all; position: absolute; inset: -14px 0px -14px -14px; }"
+    },
+    {
+      "selector": ".HrpQab:hover, .HrpQab_active",
+      "styles": ".HrpQab:hover, .HrpQab_active { width: 36px; box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 12px; }"
+    },
+    {
+      "selector": ".HrpQab:hover::before, .HrpQab_active::before",
+      "styles": ".HrpQab:hover::before, .HrpQab_active::before { top: -40px; bottom: -40px; left: -40px; }"
+    },
+    {
+      "selector": ".HrpQab__button_option:hover",
+      "styles": ".HrpQab__button_option:hover { background-color: rgb(42, 51, 56); }"
+    },
+    {
+      "selector": ".HrpQab__button_option:hover img",
+      "styles": ".HrpQab__button_option:hover img { filter: invert(); }"
+    },
+    {
+      "selector": ".HrpQab:hover .HrpQab__button_option, .HrpQab_active .HrpQab__button_option",
+      "styles": ".HrpQab:hover .HrpQab__button_option, .HrpQab_active .HrpQab__button_option { display: flex; }"
+    },
+    {
+      "selector": ".HrpQab__button:hover .HrpQab__tooltip",
+      "styles": ".HrpQab__button:hover .HrpQab__tooltip { display: flex; }"
+    },
+    {
+      "selector": ".Toastify__toast--stacked::after",
+      "styles": ".Toastify__toast--stacked::after { content: \"\"; position: absolute; left: 0px; right: 0px; height: calc(var(--g) * 1px); bottom: 100%; }"
+    },
+    {
+      "selector": ".Toastify__toast--stacked[data-pos=\"bot\"].Toastify__toast--stacked::before",
+      "styles": ".Toastify__toast--stacked[data-pos=\"bot\"].Toastify__toast--stacked::before { transform-origin: center top; }"
+    },
+    {
+      "selector": ".Toastify__toast--stacked[data-pos=\"top\"].Toastify__toast--stacked::before",
+      "styles": ".Toastify__toast--stacked[data-pos=\"top\"].Toastify__toast--stacked::before { transform-origin: center bottom; }"
+    },
+    {
+      "selector": ".Toastify__toast--stacked::before",
+      "styles": ".Toastify__toast--stacked::before { content: \"\"; position: absolute; left: 0px; right: 0px; bottom: 0px; height: 100%; transform: scaleY(3); z-index: -1; }"
+    },
+    {
+      "selector": ".Toastify__close-button:hover, .Toastify__close-button:focus",
+      "styles": ".Toastify__close-button:hover, .Toastify__close-button:focus { opacity: 1; }"
+    },
+    {
+      "selector": "[data-vaul-drawer]:not([data-vaul-custom-container=\"true\"])::after",
+      "styles": "[data-vaul-drawer]:not([data-vaul-custom-container=\"true\"])::after { content: \"\"; position: absolute; background: inherit; }"
+    },
+    {
+      "selector": "[data-vaul-drawer][data-vaul-drawer-direction=\"top\"]::after",
+      "styles": "[data-vaul-drawer][data-vaul-drawer-direction=\"top\"]::after { top: initial; bottom: 100%; left: 0px; right: 0px; height: 200%; }"
+    },
+    {
+      "selector": "[data-vaul-drawer][data-vaul-drawer-direction=\"bottom\"]::after",
+      "styles": "[data-vaul-drawer][data-vaul-drawer-direction=\"bottom\"]::after { top: 100%; bottom: initial; left: 0px; right: 0px; height: 200%; }"
+    },
+    {
+      "selector": "[data-vaul-drawer][data-vaul-drawer-direction=\"left\"]::after",
+      "styles": "[data-vaul-drawer][data-vaul-drawer-direction=\"left\"]::after { left: initial; right: 100%; top: 0px; bottom: 0px; width: 200%; }"
+    },
+    {
+      "selector": "[data-vaul-drawer][data-vaul-drawer-direction=\"right\"]::after",
+      "styles": "[data-vaul-drawer][data-vaul-drawer-direction=\"right\"]::after { left: 100%; right: initial; top: 0px; bottom: 0px; width: 200%; }"
+    },
+    {
+      "selector": "[data-vaul-handle]:active, [data-vaul-handle]:hover",
+      "styles": "[data-vaul-handle]:active, [data-vaul-handle]:hover { opacity: 1; }"
+    },
+    {
+      "selector": ".ZFfasc5f5NTIdwkMzNMy .TiFcRFnjGcRWQCxcglYv select:focus-visible",
+      "styles": ".ZFfasc5f5NTIdwkMzNMy .TiFcRFnjGcRWQCxcglYv select:focus-visible { outline: none; border: 1px solid rgb(0, 0, 0); }"
+    },
+    {
+      "selector": ".ZFfasc5f5NTIdwkMzNMy .TiFcRFnjGcRWQCxcglYv::after",
+      "styles": ".ZFfasc5f5NTIdwkMzNMy .TiFcRFnjGcRWQCxcglYv::after { content: \"\"; display: block; width: 0px; height: 0px; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 4px solid rgba(0, 0, 0, 0.5); position: absolute; top: 50%; right: 15px; transform: translateY(-50%); }"
+    },
+    {
+      "selector": ".ZFfasc5f5NTIdwkMzNMy .TiFcRFnjGcRWQCxcglYv:focus-visible",
+      "styles": ".ZFfasc5f5NTIdwkMzNMy .TiFcRFnjGcRWQCxcglYv:focus-visible { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; background: salmon; }"
+    },
+    {
+      "selector": ".IRoWVNnxMESYzrLAb1jW:focus-visible",
+      "styles": ".IRoWVNnxMESYzrLAb1jW:focus-visible { outline: none; }"
+    },
+    {
+      "selector": ".Ib6CUk9NvPeuYdBNTyjg input[type=\"radio\"]:checked",
+      "styles": ".Ib6CUk9NvPeuYdBNTyjg input[type=\"radio\"]:checked { border-color: rgb(255, 143, 0); }"
+    },
+    {
+      "selector": ".Ib6CUk9NvPeuYdBNTyjg input[type=\"radio\"]:checked::after",
+      "styles": ".Ib6CUk9NvPeuYdBNTyjg input[type=\"radio\"]:checked::after { content: \"\"; width: 10px; height: 10px; background: rgb(255, 143, 0); border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }"
+    },
+    {
+      "selector": ".c9sddWo_i7vCT4SyyItq:disabled",
+      "styles": ".c9sddWo_i7vCT4SyyItq:disabled { color: rgb(236, 239, 241); cursor: not-allowed; box-shadow: none; background: rgb(194, 194, 194) !important; }"
+    },
+    {
+      "selector": ".EEznAG43zTuQkQq624yy .ci0NHoq5VTLikHkgliPO > a:hover",
+      "styles": ".EEznAG43zTuQkQq624yy .ci0NHoq5VTLikHkgliPO > a:hover { color: rgb(61, 90, 254); }"
+    },
+    {
+      "selector": ".BW1QT6wRodElrY9DbAeQ label::after",
+      "styles": ".BW1QT6wRodElrY9DbAeQ label::after { content: \"\"; position: absolute; top: 4px; left: 4px; width: 20px; height: 20px; background: rgb(255, 255, 255); border-radius: 90px; transition: 0.3s; }"
+    },
+    {
+      "selector": ".BW1QT6wRodElrY9DbAeQ input:checked + label",
+      "styles": ".BW1QT6wRodElrY9DbAeQ input:checked + label { background: rgb(255, 143, 0); box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 5px -3px, rgba(0, 0, 0, 0.04) 0px 3px 14px 2px, rgba(0, 0, 0, 0.06) 0px 8px 10px 1px; }"
+    },
+    {
+      "selector": ".BW1QT6wRodElrY9DbAeQ input:checked + label::after",
+      "styles": ".BW1QT6wRodElrY9DbAeQ input:checked + label::after { left: calc(100% - 4px); transform: translateX(-100%); }"
+    },
+    {
+      "selector": ".BW1QT6wRodElrY9DbAeQ label:active::after",
+      "styles": ".BW1QT6wRodElrY9DbAeQ label:active::after { width: 56px; }"
+    },
+    {
+      "selector": ".av93VnBkT8rC6BfwHXXl input:checked + .ccHDoQWfCQ0wpKNe51Og, .av93VnBkT8rC6BfwHXXl input:indeterminate + .ccHDoQWfCQ0wpKNe51Og",
+      "styles": ".av93VnBkT8rC6BfwHXXl input:checked + .ccHDoQWfCQ0wpKNe51Og, .av93VnBkT8rC6BfwHXXl input:indeterminate + .ccHDoQWfCQ0wpKNe51Og { background-color: rgb(255, 193, 7); border-color: rgb(255, 193, 7); }"
+    },
+    {
+      "selector": ".av93VnBkT8rC6BfwHXXl .ccHDoQWfCQ0wpKNe51Og::after",
+      "styles": ".av93VnBkT8rC6BfwHXXl .ccHDoQWfCQ0wpKNe51Og::after { content: \"\"; position: absolute; display: none; }"
+    },
+    {
+      "selector": ".av93VnBkT8rC6BfwHXXl input:checked + .ccHDoQWfCQ0wpKNe51Og::after",
+      "styles": ".av93VnBkT8rC6BfwHXXl input:checked + .ccHDoQWfCQ0wpKNe51Og::after { display: block; left: 50%; top: 50%; width: 6px; height: 10px; border-style: solid; border-color: white; border-image: initial; border-width: 0px 3px 3px 0px; transform: translate(-50%, -50%) rotate(45deg); }"
+    },
+    {
+      "selector": ".av93VnBkT8rC6BfwHXXl input:indeterminate + .ccHDoQWfCQ0wpKNe51Og::after",
+      "styles": ".av93VnBkT8rC6BfwHXXl input:indeterminate + .ccHDoQWfCQ0wpKNe51Og::after { content: \"\"; position: absolute; display: block; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 10px; height: 5px; background: white; }"
+    },
+    {
+      "selector": ".av93VnBkT8rC6BfwHXXl input:disabled + .ccHDoQWfCQ0wpKNe51Og",
+      "styles": ".av93VnBkT8rC6BfwHXXl input:disabled + .ccHDoQWfCQ0wpKNe51Og { background-color: rgb(224, 224, 224); border-color: rgb(189, 189, 189); cursor: not-allowed; }"
+    },
+    {
+      "selector": ".av93VnBkT8rC6BfwHXXl input:disabled + .ccHDoQWfCQ0wpKNe51Og::after",
+      "styles": ".av93VnBkT8rC6BfwHXXl input:disabled + .ccHDoQWfCQ0wpKNe51Og::after { background: rgb(189, 189, 189); }"
+    },
+    {
+      "selector": "#cookiescript_manage:hover #cookiescript_manageicon .cookiescript_gear",
+      "styles": "#cookiescript_manage:hover #cookiescript_manageicon .cookiescript_gear { fill: rgb(209, 254, 23); }"
+    },
+    {
+      "selector": ".cookiescript-extra-links a:hover",
+      "styles": ".cookiescript-extra-links a:hover { color: rgb(193, 234, 22); text-decoration: underline; }"
+    },
+    {
+      "selector": "#cookiescript_readmore:hover, #cookiescript_reportlink:hover, #cookiescript_cookiescriptlink:hover, #cookiescript_description a:hover",
+      "styles": "#cookiescript_readmore:hover, #cookiescript_reportlink:hover, #cookiescript_cookiescriptlink:hover, #cookiescript_description a:hover { text-decoration: underline; color: rgb(209, 254, 23); }"
+    },
+    {
+      "selector": "#cookiescript_close:hover, #cookiescript_manage:hover, #cookiescript_link:hover",
+      "styles": "#cookiescript_close:hover, #cookiescript_manage:hover, #cookiescript_link:hover { opacity: 1; }"
+    },
+    {
+      "selector": "#cookiescript_reject:hover",
+      "styles": "#cookiescript_reject:hover { background-color: rgb(63, 65, 66); }"
+    },
+    {
+      "selector": "#cookiescript_accept:hover",
+      "styles": "#cookiescript_accept:hover { background-color: rgb(63, 65, 66); }"
+    },
+    {
+      "selector": "#cookiescript_save:hover",
+      "styles": "#cookiescript_save:hover { background-color: rgb(193, 234, 22); }"
+    },
+    {
+      "selector": "#cookiescript_readmore:hover, #cookiescript_reportlink:hover, #cookiescript_cookiescriptlink:hover",
+      "styles": "#cookiescript_readmore:hover, #cookiescript_reportlink:hover, #cookiescript_cookiescriptlink:hover { color: rgb(193, 234, 22); }"
+    },
+    {
+      "selector": "#cookiescript_fsd_wrapper #cookiescript_readmore:hover",
+      "styles": "#cookiescript_fsd_wrapper #cookiescript_readmore:hover { text-decoration: underline; }"
+    },
+    {
+      "selector": ".cookiescript_vendor_name a:hover",
+      "styles": ".cookiescript_vendor_name a:hover { text-decoration: underline; color: rgb(209, 254, 23); }"
+    },
+    {
+      "selector": "#cookiescript_fsd_wrapper #cookiescript_aboutwrap a, #cookiescript_fsd_wrapper #cookiescript_aboutwrap a:hover",
+      "styles": "#cookiescript_fsd_wrapper #cookiescript_aboutwrap a, #cookiescript_fsd_wrapper #cookiescript_aboutwrap a:hover { color: rgb(209, 254, 23); text-decoration: underline; }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd #cookiescript_accept:hover",
+      "styles": "#cookiescript_injected_fsd #cookiescript_accept:hover { background-color: rgb(193, 234, 22); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd #cookiescript_reject:hover",
+      "styles": "#cookiescript_injected_fsd #cookiescript_reject:hover { background-color: rgb(63, 65, 66); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd #cookiescript_save:hover",
+      "styles": "#cookiescript_injected_fsd #cookiescript_save:hover { background-color: rgb(63, 65, 66); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after { background: rgb(238, 238, 238); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after { background: rgb(231, 231, 231); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus:not(:active) .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus:not(:active) .mdc-switch__handle::after { background: rgb(231, 231, 231); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__handle::after { background: rgb(231, 231, 231); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus) .mdc-switch__ripple::after { background: rgb(238, 238, 238); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:focus .mdc-switch__ripple::after { background: rgb(238, 238, 238); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-switch--selected:enabled:active .mdc-switch__ripple::after { background: rgb(238, 238, 238); }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch:enabled .mdc-switch__track::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch:enabled .mdc-switch__track::after { background: rgb(238, 238, 238); opacity: 0.3; }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after { background: rgb(238, 238, 238); opacity: 0.3; }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch:enabled:focus:not(:active) .mdc-switch__track::after { background: rgb(238, 238, 238); opacity: 0.3; }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-switch:enabled:active .mdc-switch__track::after",
+      "styles": "#cookiescript_injected_fsd .mdc-switch:enabled:active .mdc-switch__track::after { background: rgb(238, 238, 238); opacity: 0.3; }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background::before, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before",
+      "styles": "#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background::before, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before { background-color: rgb(255, 255, 255); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background::before, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before",
+      "styles": "#cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background::before, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background::before { background-color: rgb(0, 0, 0); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background::before",
+      "styles": "#cookiescript_injected .mdc-checkbox .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background::before { top: -13px; left: -13px; width: 40px; height: 40px; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background",
+      "styles": "#cookiescript_injected .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background { border-color: rgb(255, 255, 255); background-color: transparent; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background, #cookiescript_injected .mdc-checkbox__native-control:enabled:indeterminate ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:indeterminate ~ .mdc-checkbox__background",
+      "styles": "#cookiescript_injected .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background, #cookiescript_injected .mdc-checkbox__native-control:enabled:indeterminate ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control:enabled:indeterminate ~ .mdc-checkbox__background { border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background",
+      "styles": "#cookiescript_injected .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:not(:checked):not(:indeterminate) ~ .mdc-checkbox__background { border-color: rgba(0, 0, 0, 0.26); background-color: transparent; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox__native-control[disabled]:checked ~ .mdc-checkbox__background, #cookiescript_injected .mdc-checkbox__native-control[disabled]:indeterminate ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:checked ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:indeterminate ~ .mdc-checkbox__background",
+      "styles": "#cookiescript_injected .mdc-checkbox__native-control[disabled]:checked ~ .mdc-checkbox__background, #cookiescript_injected .mdc-checkbox__native-control[disabled]:indeterminate ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:checked ~ .mdc-checkbox__background, #cookiescript_injected_fsd .mdc-checkbox__native-control[disabled]:indeterminate ~ .mdc-checkbox__background { border-color: transparent; background-color: rgba(0, 0, 0, 0.26); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox__native-control:disabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark, #cookiescript_injected_fsd .mdc-checkbox__native-control:disabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark",
+      "styles": "#cookiescript_injected .mdc-checkbox__native-control:disabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark, #cookiescript_injected_fsd .mdc-checkbox__native-control:disabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark { color: rgb(15, 17, 19); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox__background .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox__background .mdc-checkbox__background::before",
+      "styles": "#cookiescript_injected .mdc-checkbox__background .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox__background .mdc-checkbox__background::before { background-color: rgb(0, 0, 0); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-checkbox .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background::before",
+      "styles": "#cookiescript_injected .mdc-checkbox .mdc-checkbox__background::before, #cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__background::before { width: 0px; height: 0px; }"
+    },
+    {
+      "selector": "#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background",
+      "styles": "#cookiescript_injected_fsd .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background, #cookiescript_injected .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__background { outline: highlight auto 1px; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch:disabled, #cookiescript_injected_fsd .mdc-switch:disabled",
+      "styles": "#cookiescript_injected .mdc-switch:disabled, #cookiescript_injected_fsd .mdc-switch:disabled { cursor: default; pointer-events: none; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch__track::after, #cookiescript_injected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch__track::before",
+      "styles": "#cookiescript_injected .mdc-switch__track::after, #cookiescript_injected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch__track::before { border: 1px solid transparent; border-radius: inherit; box-sizing: border-box; content: \"\"; height: 100%; left: 0px; position: absolute; width: 100%; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch__track::before",
+      "styles": "#cookiescript_injected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch__track::before { transition: transform 75ms cubic-bezier(0, 0, 0.2, 1); transform: translateX(0px); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch__track::after",
+      "styles": "#cookiescript_injected .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch__track::after { transition: transform 75ms cubic-bezier(0.4, 0, 0.6, 1); transform: translateX(-100%); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch__track[dir=\"rtl\"]::after, #cookiescript_injected [dir=\"rtl\"] .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch__track[dir=\"rtl\"]::after, #cookiescript_injected_fsd [dir=\"rtl\"] .mdc-switch__track::after",
+      "styles": "#cookiescript_injected .mdc-switch__track[dir=\"rtl\"]::after, #cookiescript_injected [dir=\"rtl\"] .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch__track[dir=\"rtl\"]::after, #cookiescript_injected_fsd [dir=\"rtl\"] .mdc-switch__track::after { transform: translateX(100%); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch--selected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track::before",
+      "styles": "#cookiescript_injected .mdc-switch--selected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track::before { transition: transform 75ms cubic-bezier(0.4, 0, 0.6, 1); transform: translateX(100%); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch--selected .mdc-switch__track[dir=\"rtl\"]::before, #cookiescript_injected [dir=\"rtl\"] .mdc-switch--selected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track[dir=\"rtl\"]::before, #cookiescript_injected_fsd [dir=\"rtl\"] .mdc-switch--selected .mdc-switch__track::before",
+      "styles": "#cookiescript_injected .mdc-switch--selected .mdc-switch__track[dir=\"rtl\"]::before, #cookiescript_injected [dir=\"rtl\"] .mdc-switch--selected .mdc-switch__track::before, #cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track[dir=\"rtl\"]::before, #cookiescript_injected_fsd [dir=\"rtl\"] .mdc-switch--selected .mdc-switch__track::before { transform: translateX(-100%); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch--selected .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track::after",
+      "styles": "#cookiescript_injected .mdc-switch--selected .mdc-switch__track::after, #cookiescript_injected_fsd .mdc-switch--selected .mdc-switch__track::after { transition: transform 75ms cubic-bezier(0, 0, 0.2, 1); transform: translateX(0px); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch__handle::after, #cookiescript_injected .mdc-switch__handle::before, #cookiescript_injected_fsd .mdc-switch__handle::after, #cookiescript_injected_fsd .mdc-switch__handle::before",
+      "styles": "#cookiescript_injected .mdc-switch__handle::after, #cookiescript_injected .mdc-switch__handle::before, #cookiescript_injected_fsd .mdc-switch__handle::after, #cookiescript_injected_fsd .mdc-switch__handle::before { border: 1px solid transparent; border-radius: inherit; box-sizing: border-box; content: \"\"; width: 100%; height: 100%; left: 0px; position: absolute; top: 0px; transition: background-color 75ms cubic-bezier(0.4, 0, 0.2, 1), border-color 75ms cubic-bezier(0.4, 0, 0.2, 1); z-index: -1; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch:disabled .mdc-switch__ripple, #cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__ripple",
+      "styles": "#cookiescript_injected .mdc-switch:disabled .mdc-switch__ripple, #cookiescript_injected_fsd .mdc-switch:disabled .mdc-switch__ripple { display: none; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected .mdc-switch .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before",
+      "styles": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected .mdc-switch .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before { position: absolute; border-radius: 50%; opacity: 0; pointer-events: none; content: \"\"; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before",
+      "styles": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before { transition: opacity 15ms linear, background-color 15ms linear; z-index: 1; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after { z-index: 0; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before { transform: scale(1); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after { top: 0px; left: 0px; transform: scale(0); transform-origin: center center; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--unbounded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--unbounded .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--unbounded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--unbounded .mdc-switch__ripple::after { top: 0px; left: 0px; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--foreground-activation .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--foreground-activation .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--foreground-activation .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--foreground-activation .mdc-switch__ripple::after { animation: 225ms ease 0s 1 normal forwards running mdc-ripple-fg-radius-in, 75ms ease 0s 1 normal forwards running mdc-ripple-fg-opacity-in; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--foreground-deactivation .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--foreground-deactivation .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded--foreground-deactivation .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded--foreground-deactivation .mdc-switch__ripple::after { animation: 150ms ease 0s 1 normal none running mdc-ripple-fg-opacity-out; transform: translate(0px) scale(1); }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected .mdc-switch .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before",
+      "styles": "#cookiescript_injected .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected .mdc-switch .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch .mdc-switch__ripple::before { top: calc(0%); left: calc(0%); width: 100%; height: 100%; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::before { top: 0px; left: 0px; width: 0px; height: 0px; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after, #cookiescript_injected_fsd .mdc-switch.mdc-ripple-upgraded .mdc-switch__ripple::after { width: 0px; height: 0px; }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after { }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after { }"
+    },
+    {
+      "selector": "#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus:not(:active) .mdc-switch__handle::after",
+      "styles": "#cookiescript_injected .mdc-switch.mdc-switch--selected:enabled:focus:not(:active) .mdc-switch__handle::after { }"
+    }
+  ],
+  "assets": {
+    "images": [
+      {
+        "src": "https://higgsfield.ai/cdn-cgi/image/fit=scale-down,format=webp,onerror=redirect,width=64,quality=85/asset/empty/folder/folder-brand.webp",
+        "alt": "Folder icon",
+        "width": 0,
+        "height": 0,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_35QABjXB6XLm026QiCyf1pplVk1%2Fd5404616-2d2b-41ed-b683-e2f39f1c70d8.png&w=1920&q=85",
+        "alt": "user profile",
+        "width": 36,
+        "height": 36,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_35QABjXB6XLm026QiCyf1pplVk1%2Fd5404616-2d2b-41ed-b683-e2f39f1c70d8.png&w=1920&q=85",
+        "alt": "user profile",
+        "width": 1920,
+        "height": 1920,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_35QABjXB6XLm026QiCyf1pplVk1%2Fd5404616-2d2b-41ed-b683-e2f39f1c70d8.png&w=1920&q=85",
+        "alt": "user profile",
+        "width": 1920,
+        "height": 1920,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://static.higgsfield.ai/claudesfield/migrate-agent/chat-gpt-icon.webp",
+        "alt": "",
+        "width": 200,
+        "height": 200,
+        "loading": "auto"
+      },
+      {
+        "src": "https://static.higgsfield.ai/claudesfield/migrate-agent/open-claw-icon.webp",
+        "alt": "",
+        "width": 200,
+        "height": 200,
+        "loading": "auto"
+      },
+      {
+        "src": "https://static.higgsfield.ai/claudesfield/migrate-agent/hermes-icon.webp",
+        "alt": "",
+        "width": 200,
+        "height": 200,
+        "loading": "auto"
+      },
+      {
+        "src": "https://static.higgsfield.ai/claudesfield/migrate-agent/perplexity-icon.webp",
+        "alt": "",
+        "width": 200,
+        "height": 200,
+        "loading": "auto"
+      },
+      {
+        "src": "https://static.higgsfield.ai/claudesfield/migrate-agent/claude-icon.webp",
+        "alt": "",
+        "width": 200,
+        "height": 200,
+        "loading": "auto"
+      }
+    ],
+    "svgIcons": [
+      {
+        "viewBox": "0 0 80 80",
+        "width": "80",
+        "height": "80",
+        "markup": "<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" class=\"size-8\"><rect width=\"80\" height=\"80\" rx=\"16\" fill=\"currentColor\"></rect><path d=\"M64.2786 39.6003L64.2323 39.0943C63.7939 34.2383 60.6336 25.102 51.8677 25.102C45.3627 25.102 40.4487 31.5229 36.112 37.1838C32.6515 41.7173 29.6533 45.6063 26.3542 45.6063C25.4773 45.5146 24.3472 45.0772 23.6555 44.0877C23.0326 43.1898 22.8712 42.0393 23.1939 40.6585C23.7011 38.4722 26.6081 36.447 29.6758 34.2838C31.3594 33.1333 33.09 31.9135 34.2895 30.7399C37"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4!\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.56218 3.52331C6.89119 3.18855 7.34089 3 7.81027 3H16.186C16.6554 3 17.1051 3.18855 17.4341 3.52331L22.5881 8.76722C23.2614 9.45231 23.2567 10.5521 22.5774 11.2313L13.2356 20.5732C12.5521 21.2566 11.4441 21.2566 10.7607 20.5732L1.41881 11.2313C0.73957 10.5521 0.734815 9.45231 1.40816 8.76722L6.56218 3.52331ZM9.028"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4!\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.56218 3.52331C6.89119 3.18855 7.34089 3 7.81027 3H16.186C16.6554 3 17.1051 3.18855 17.4341 3.52331L22.5881 8.76722C23.2614 9.45231 23.2567 10.5521 22.5774 11.2313L13.2356 20.5732C12.5521 21.2566 11.4441 21.2566 10.7607 20.5732L1.41881 11.2313C0.73957 10.5521 0.734815 9.45231 1.40816 8.76722L6.56218 3.52331ZM9.028"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "markup": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" class=\"size-5\"><path d=\"M7.19709 0.0839251C5.92029 0.144165 5.04837 0.347925 4.28613 0.647445C3.49725 0.954885 2.82861 1.36745 2.16333 2.03513C1.49805 2.70281 1.08837 3.37193 0.783092 4.16201C0.487652 4.92593 0.287492 5.79857 0.231092 7.07609C0.174692 8.35361 0.162212 8.76425 0.168452 12.023C0.174692 15.2817 0.189092 15.6902 0.251012 16.9703C0.311972 18.2469 0.515012 19.1186 0.814532 19.881C1.12245 20.6699 1.53453 21.3383 2.20245 22.0038C2.87037 22"
+      },
+      {
+        "viewBox": null,
+        "width": "36",
+        "height": "36",
+        "markup": "<svg class=\"transform -rotate-90\" width=\"36\" height=\"36\"><circle r=\"17\" cx=\"18\" cy=\"18\" stroke=\"currentColor\" fill=\"transparent\" stroke-width=\"2\" class=\"text-gray-8\"></circle><circle r=\"17\" cx=\"18\" cy=\"18\" fill=\"transparent\" stroke-linecap=\"round\" stroke-width=\"2\" stroke-dashoffset=\"101.47344271095032\" stroke-dasharray=\"106.81415022205297\" class=\"transition-all duration-500 stroke-surface-brand-secondary\"></circle></svg>"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24",
+        "height": "24",
+        "markup": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" class=\"size-6 text-font-primary\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2 5.75C2 5.33579 2.33579 5 2.75 5H21.25C21.6642 5 22 5.33579 22 5.75C22 6.16421 21.6642 6.5 21.25 6.5H2.75C2.33579 6.5 2 6.16421 2 5.75ZM2 12C2 11.5858 2.33579 11.25 2.75 11.25H21.25C21.6642 11.25 22 11.5858 22 12C22 12.4142 21.6642 12.75 21.25 12.75H2.75C2.33579 12.75 2 12.4142 2 12ZM2 18.25C2 17.8358 2.33579 17.5 2.75 17.5H21.25C21.6642 17.5 22 17.8358 22 18.25C22 "
+      },
+      {
+        "viewBox": "0 0 36 36",
+        "width": "36",
+        "height": "36",
+        "markup": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" class=\"size-4\"><path fill=\"currentColor\" d=\"M33.0297 17.7169L33.0011 17.4047C32.7297 14.4085 30.7733 8.77127 25.3469 8.77127C21.3201 8.77127 18.2782 12.7331 15.5936 16.2259C13.4514 19.0231 11.5954 21.4227 9.55314 21.4227C9.01034 21.3661 8.31075 21.0962 7.88256 20.4857C7.49695 19.9317 7.39706 19.2218 7.59683 18.3698C7.91081 17.0209 9.71034 15.7712 11.6093 14.4365C12.6516 13.7267 13.7228 12.974 14.4654 12.2499C16.6076 10.191 17.6928 8.70004 17.6928 6"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4 shrink-0 text-icon-primary/50\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8 8.99989L11.4697 5.53022C11.7626 5.23732 12.2374 5.23732 12.5303 5.53022L16 8.99989M16 14.9999L12.5303 18.4696C12.2374 18.7625 11.7626 18.7625 11.4697 18.4696L8 14.9999\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+      },
+      {
+        "viewBox": "0 0 36 36",
+        "width": "36",
+        "height": "36",
+        "markup": "<svg width=\"36\" height=\"36\" viewBox=\"0 0 36 36\" class=\"size-4\"><path fill=\"currentColor\" d=\"M33.0297 17.7169L33.0011 17.4047C32.7297 14.4085 30.7733 8.77127 25.3469 8.77127C21.3201 8.77127 18.2782 12.7331 15.5936 16.2259C13.4514 19.0231 11.5954 21.4227 9.55314 21.4227C9.01034 21.3661 8.31075 21.0962 7.88256 20.4857C7.49695 19.9317 7.39706 19.2218 7.59683 18.3698C7.91081 17.0209 9.71034 15.7712 11.6093 14.4365C12.6516 13.7267 13.7228 12.974 14.4654 12.2499C16.6076 10.191 17.6928 8.70004 17.6928 6"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4! translate-x-0.5 text-neutral-primary-reverted-50! shrink-0\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 3.75V12M12 12V20.25M12 12H3.75M12 12H20.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4! translate-x-0.5 text-neutral-primary-reverted-50!\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.25 20.25L16.1265 16.1265M16.1265 16.1265C17.4385 14.8145 18.25 13.002 18.25 11C18.25 6.99594 15.0041 3.75 11 3.75C6.99594 3.75 3.75 6.99594 3.75 11C3.75 15.0041 6.99594 18.25 11 18.25C13.002 18.25 14.8145 17.4385 16.1265 16.1265Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-l"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4! translate-x-0.5 text-neutral-primary-reverted-50! shrink-0\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M19.7978 8.75H13.75C13.4739 8.75 13.25 8.52614 13.25 8.25V2.3557C13.25 1.86505 12.6169 1.66792 12.3384 2.07183L3.7906 14.4661C3.56185 14.7978 3.79928 15.25 4.2022 15.25H10.25C10.5261 15.25 10.75 15.4739 10.75 15.75V21.6443C10.75 22.135 11.383 22.3321 11.6616 21.9282L20.2094 9.53387C20.4382 9.20218"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4! translate-x-0.5 text-neutral-primary-reverted-50! shrink-0\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"6\" cy=\"6\" r=\"2.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle><circle cx=\"12\" cy=\"18\" r=\"2.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle><circle cx=\"18\" cy=\"6\" r=\"2.25\" stroke=\"currentCo"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4! translate-x-0.5 text-neutral-primary-reverted-50! shrink-0\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3.75 5.35C3.75 4.78995 3.75 4.50992 3.85899 4.29601C3.95487 4.10785 4.10785 3.95487 4.29601 3.85899C4.50992 3.75 4.78995 3.75 5.35 3.75H10.25V10.25H3.75V5.35Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M13.75 3.75H18.65C19.2101 3.75 19"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4! translate-x-0.5 text-neutral-primary-reverted-50! shrink-0\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5.27556 5.02573L8.51726 2.99966C8.77021 2.84157 9.08052 2.80465 9.36349 2.89898L11.6838 3.6724C11.889 3.74083 12.111 3.74083 12.3162 3.6724L14.6365 2.89898C14.9195 2.80465 15.2298 2.84157 15.4827 2.99966L18.7244 5.02573C19.0168 5.20847 19.1944 5.52894 19.1944 5.87373V7.38892C19.1944 7.70368 19.34"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4 text-neutral-primary-reverted/50\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8 10L11.6464 13.6464C11.8417 13.8417 12.1583 13.8417 12.3536 13.6464L16 10\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+      },
+      {
+        "viewBox": "0 0 103 95",
+        "width": "103",
+        "height": "95",
+        "markup": "<svg width=\"103\" height=\"95\" viewBox=\"0 0 103 95\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0 text-[var(--color-sc-empty-card)]\"><g filter=\"url(#shadow_back)\"><rect x=\"7.12\" y=\"10.64\" width=\"64\" height=\"64\" rx=\"8\" transform=\"rotate(-6.1 7.12 10.64)\" fill=\"currentColor\"></rect><rect x=\"7.12\" y=\"10.64\" width=\"64\" height=\"64\" rx=\"8\" transform=\"rotate(-6.1 7.12 10.64)\" fill=\"black\" fill-opacity=\"0.35\"></rect></g><g filter=\"url(#shadow_mid)\"><rect x=\"32.02\" y=\"6.98\" width=\"64\" heig"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4 text-[var(--color-sc-maze-glow)]\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.56218 3.52331C6.89119 3.18855 7.34089 3 7.81027 3H16.186C16.6554 3 17.1051 3.18855 17.4341 3.52331L22.5881 8.76722C23.2614 9.45231 23.2567 10.5521 22.5774 11.2313L13.2356 20.5732C12.5521 21.2566 11.4441 21.2566 10.7607 20.5732L1.41881 11.2313C0.73957 10.5521 0.734815 9.45231 1.4081"
+      },
+      {
+        "viewBox": null,
+        "width": "32",
+        "height": "32",
+        "markup": "<svg class=\"transform -rotate-90\" width=\"32\" height=\"32\"><circle r=\"15\" cx=\"16\" cy=\"16\" stroke=\"currentColor\" fill=\"transparent\" stroke-width=\"2\" class=\"text-gray-8\"></circle><circle r=\"15\" cx=\"16\" cy=\"16\" fill=\"transparent\" stroke-linecap=\"round\" stroke-width=\"2\" stroke-dashoffset=\"89.5353906273091\" stroke-dasharray=\"94.24777960769379\" class=\"transition-all duration-500 stroke-brand-tertiary\"></circle></svg>"
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "width": "24px",
+        "height": "24px",
+        "markup": "<svg class=\"size-4\" aria-hidden=\"true\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11.9982 3.29083V1.76758M5.83985 18.1586L4.76275 19.2357M11.9982 22.2327V20.7094M19.2334 4.76468L18.1562 5.84179M20.707 12.0001H22.2303M18.1562 18.1586L19.2334 19.2357M1.76562 12.0001H3.28888M4.76267 4.76462L5.83977 5.84173M15.7104 8.28781C17.7606 10.3381 17.7606 13.6622 15.7104 15.7124C13.6601 17.7627 10.336 17.7627 8.28574 15.7124C6.23548 13.6622 6.23548"
+      }
+    ],
+    "backgroundImages": []
+  },
+  "rawStylesheets": [
+    "chrome-extension://eanggfilgoajaocelnaflolkadkeghjp/nj.css",
+    "https://assets.higgsfield.ai/main/_next/static/css/985e2f0dea2ed84a.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/b62b2054de12356b.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/8e46e2c997503e7a.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/d89db0d79c30744c.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/a89f2e58d07c37b5.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/c77972a601a4d7fe.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/f65c24d2478a597d.css?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/dfe8d4d8aa1c1b95.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/6f617f7d77907a16.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/0170609c50889f80.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/ba990d4fc66b31bb.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/47a7704d3aec516c.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/328428817ab3b648.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/537d7bc743f7b955.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3",
+    "https://assets.higgsfield.ai/main/_next/static/css/8db8776d9aa2cab2.css?dpl=dpl-mp9wr4k3?dpl=dpl-mp9wr4k3"
+  ]
+}

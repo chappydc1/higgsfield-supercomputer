@@ -1,41 +1,156 @@
-import { SidebarPrimaryNav } from "@/sections/MainWorkspace/components/SidebarPrimaryNav";
-import { SidebarUserControls } from "@/sections/MainWorkspace/components/SidebarUserControls";
+import { Link, useLocation } from "react-router-dom";
 
 export const Sidebar = () => {
+  const { pathname } = useLocation();
+
+  const isActive = (path: string) => {
+    if (path === '/supercomputer') return pathname === '/' || pathname === '/supercomputer';
+    return pathname.startsWith(path);
+  };
+
+  const navItemClass = (active: boolean) =>
+    `flex items-center gap-2.5 w-full px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
+      active
+        ? "bg-white/10 text-[#f7f7f8]"
+        : "text-[#f7f7f8]/50 hover:text-[#f7f7f8]/90 hover:bg-white/5"
+    }`;
+
   return (
-    <div className="static bg-transparent box-content caret-black shrink h-auto min-w-0 outline-0 w-auto md:relative md:aspect-auto md:bg-zinc-900 md:box-border md:caret-transparent md:shrink-0 md:h-full md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-12 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-      <div className="box-content caret-black block flex-row h-auto outline-0 pt-0 md:aspect-auto md:box-border md:caret-transparent md:flex md:flex-col md:h-full md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:overflow-hidden md:[mask-position:0%] md:bg-left-top md:pt-2 md:scroll-m-0 md:scroll-p-[auto]">
-        <div className="[align-items:normal] box-content caret-black gap-x-[normal] block shrink min-h-0 min-w-0 outline-0 gap-y-[normal] px-0 md:items-center md:aspect-auto md:box-border md:caret-transparent md:gap-x-1 md:flex md:shrink-0 md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:gap-y-1 md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:px-1.5 md:scroll-m-0 md:scroll-p-[auto]">
-          <div className="box-content caret-black basis-auto grow-0 min-h-0 outline-0 md:aspect-auto md:box-border md:caret-transparent md:basis-[0%] md:grow md:min-h-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-            <div className="static box-content caret-black outline-0 md:relative md:aspect-auto md:box-border md:caret-transparent md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-              <div className="box-content caret-black block flex-row outline-0 py-0 rounded-none md:aspect-auto md:box-border md:caret-transparent md:flex md:flex-col md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:py-1 md:scroll-m-0 md:scroll-p-[auto] md:rounded-[20px]">
-                <button
-                  type="button"
-                  className="[align-items:normal] bg-zinc-100 shadow-none caret-black inline-block h-auto justify-normal min-h-0 min-w-0 outline-0 text-center w-auto rounded-none md:items-center md:aspect-auto md:bg-[oklab(0.999994_0.0000455678_0.0000200868_/_0.05)] md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.06)_0px_2px_8px_0px] md:caret-transparent md:flex md:h-9 md:justify-center md:min-h-[auto] md:min-w-[auto] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-9 md:[mask-position:0%] md:bg-left-top md:p-0 md:scroll-m-0 md:scroll-p-[auto] md:rounded-[28px]"
-                >
-                  <img
-                    src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-4.svg"
-                    alt="Icon"
-                    className="text-black box-content caret-black shrink h-auto outline-0 w-auto md:text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.5)] md:aspect-auto md:box-border md:caret-transparent md:shrink-0 md:h-4 md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-4 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]"
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
+    <div className="hidden md:flex flex-col bg-[#151517] border-r border-[rgba(217,217,217,0.04)] shrink-0 h-full overflow-hidden" style={{ width: 160 }}>
+      {/* Header */}
+      <div className="flex items-center gap-2 px-3 py-3 border-b border-[rgba(217,217,217,0.04)]">
+        <div className="flex items-center justify-center w-6 h-6 rounded-md bg-white/10 shrink-0">
+          <img
+            src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-4.svg"
+            alt="Icon"
+            className="w-3.5 h-3.5 opacity-80"
+          />
         </div>
-        <SidebarPrimaryNav />
-        <div className="static box-content caret-black basis-auto grow-0 min-w-0 opacity-100 outline-0 pointer-events-auto mt-0 md:relative md:aspect-auto md:box-border md:caret-transparent md:basis-[0%] md:grow md:min-w-[auto] md:opacity-0 md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:pointer-events-none md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:mt-1 md:scroll-m-0 md:scroll-p-[auto]">
-          <div className="box-content caret-black h-auto outline-0 overflow-x-visible overflow-y-visible w-auto pb-0 md:aspect-auto md:box-border md:caret-transparent md:h-full md:outline-[3px] md:overflow-x-hidden md:overflow-y-auto md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-full md:[mask-position:0%] md:bg-left-top md:pb-3 md:scroll-m-0 md:scroll-p-[auto]">
-            <div className="static box-content caret-black h-auto outline-0 md:relative md:aspect-auto md:box-border md:caret-transparent md:h-[166px] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-              <div className="static box-content caret-black h-auto outline-0 w-auto left-auto top-auto md:absolute md:aspect-auto md:box-border md:caret-transparent md:h-9 md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-full md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto] md:left-0 md:top-0"></div>
-              <div className="static box-content caret-black h-auto outline-0 transform-none w-auto left-auto top-auto md:absolute md:aspect-auto md:box-border md:caret-transparent md:h-[130px] md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:translate-y-9 md:w-full md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto] md:left-0 md:top-0"></div>
-            </div>
-          </div>
-          <div className="static bg-none box-content caret-black h-auto outline-0 bottom-auto inset-x-auto md:absolute md:aspect-auto md:bg-[linear-gradient(to_top,rgb(26,26,28)_0%,rgba(0,0,0,0)_100%)] md:box-border md:caret-transparent md:h-6 md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto] md:bottom-0 md:inset-x-0"></div>
-        </div>
-        <SidebarUserControls />
+        <span className="text-white text-sm font-semibold truncate">Supercomputer</span>
+        <svg className="w-3.5 h-3.5 text-white/40 shrink-0 ml-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
       </div>
-      <div className="static box-content caret-black outline-0 pointer-events-auto w-auto right-auto inset-y-auto md:absolute md:aspect-auto md:box-border md:caret-transparent md:outline-[3px] md:overscroll-x-auto md:overscroll-y-auto md:pointer-events-none md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:w-px md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto] md:right-0 md:inset-y-0"></div>
+
+      {/* Primary Nav */}
+      <div className="flex flex-col gap-0.5 px-2 pt-2">
+        {/* New Task */}
+        <Link to="/supercomputer" className={navItemClass(isActive('/supercomputer'))}>
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+          </svg>
+          <span>New task</span>
+        </Link>
+
+        {/* Search */}
+        <button type="button" className={navItemClass(false)}>
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <span>Search</span>
+        </button>
+
+        {/* Skills */}
+        <Link to="/supercomputer/skills" className={navItemClass(isActive("/supercomputer/skills"))}>
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+          <span>Skills</span>
+        </Link>
+
+        {/* Connectors */}
+        <Link to="/supercomputer/connectors" className={navItemClass(isActive("/supercomputer/connectors"))}>
+          {/* Fork/branch shape: top node, line down, splits to two bottom nodes */}
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <circle cx="12" cy="4" r="2" />
+            <circle cx="7" cy="19" r="2" />
+            <circle cx="17" cy="19" r="2" />
+            <line x1="12" y1="6" x2="12" y2="13" strokeLinecap="round" />
+            <line x1="12" y1="13" x2="7" y2="17" strokeLinecap="round" />
+            <line x1="12" y1="13" x2="17" y2="17" strokeLinecap="round" />
+          </svg>
+          <span>Connectors</span>
+        </Link>
+
+        {/* Files */}
+        <button type="button" className={navItemClass(false)}>
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <rect x="3" y="3" width="7" height="7" rx="1" />
+            <rect x="14" y="3" width="7" height="7" rx="1" />
+            <rect x="3" y="14" width="7" height="7" rx="1" />
+            <rect x="14" y="14" width="7" height="7" rx="1" />
+          </svg>
+          <span>Files</span>
+        </button>
+
+        {/* Memory */}
+        <Link to="/supercomputer/memory" className={navItemClass(isActive("/supercomputer/memory"))}>
+          {/* Brain/blob shape */}
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 2a4.5 4.5 0 014.5 4.5c0 .173-.01.344-.028.512A4.501 4.501 0 0117 11a4.5 4.5 0 01-1.252 3.115A4.5 4.5 0 0112 22a4.5 4.5 0 01-3.748-6.885A4.5 4.5 0 017 11a4.501 4.501 0 013.028-4.238A4.496 4.496 0 019.5 6.5 4.5 4.5 0 019.5 2z" />
+          </svg>
+          <span>Memory</span>
+        </Link>
+      </div>
+
+      {/* Tasks section */}
+      <div className="flex flex-col px-2 pt-3">
+        <div className="flex items-center justify-between px-3 mb-1">
+          <span className="text-white/40 text-xs font-semibold uppercase tracking-wider">Tasks</span>
+          <svg className="w-3.5 h-3.5 text-white/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+        {/* Empty task placeholder */}
+        <div className="flex flex-col items-center justify-center gap-1.5 py-4 px-3 rounded-lg border border-dashed border-white/10">
+          <button
+            type="button"
+            className="flex items-center justify-center w-6 h-6 rounded-full bg-white/5 hover:bg-white/10 transition-colors"
+          >
+            <svg className="w-3.5 h-3.5 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+          </button>
+          <span className="text-white/30 text-[11px] text-center leading-tight">No tasks yet</span>
+        </div>
+      </div>
+
+      {/* Spacer */}
+      <div className="flex-1" />
+
+      {/* Bottom controls */}
+      <div className="flex flex-col gap-2 p-2 border-t border-[rgba(217,217,217,0.04)]">
+        {/* Pricing pill */}
+        <a
+          href="/supercomputer/pricing"
+          className="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(156,230,243,0.2)] hover:bg-[rgba(156,230,243,0.3)] border border-[#9ce6f3]/30 transition-colors"
+        >
+          <img
+            src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-11.svg"
+            alt="Pricing"
+            className="w-3.5 h-3.5"
+          />
+          <span className="text-[#9ce6f3] text-xs font-semibold whitespace-nowrap">Pricing 30% OFF</span>
+        </a>
+
+        {/* User row */}
+        <div className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-white/5 cursor-pointer">
+          <div className="w-6 h-6 rounded-full bg-zinc-600 shrink-0 overflow-hidden flex items-center justify-center">
+            <img
+              src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-12.svg"
+              alt="User"
+              className="w-4 h-4"
+            />
+          </div>
+          <span className="text-white/80 text-sm font-medium flex-1 truncate">chappy</span>
+          <button type="button" className="text-white/30 hover:text-white/60 transition-colors">
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

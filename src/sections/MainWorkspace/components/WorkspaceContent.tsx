@@ -3,7 +3,7 @@ import { PromptComposer } from "@/sections/MainWorkspace/components/PromptCompos
 
 export const WorkspaceContent = () => {
   return (
-    <div className="relative box-border caret-transparent flex basis-[0%] grow min-h-[auto] outline-[3px]">
+    <div className="relative box-border caret-transparent flex basis-[0%] grow min-h-[auto] outline-[3px] bg-[#131517]" style={{ backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)", backgroundSize: "24px 24px" }}>
       <div className="box-border caret-transparent flex basis-[0%] flex-col grow min-h-[auto] outline-[3px]">
         <WorkspaceTopBar />
         <div className="absolute box-border caret-transparent outline-[3px] pointer-events-none inset-0">

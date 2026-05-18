@@ -3,7 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 export const Sidebar = () => {
   const { pathname } = useLocation();
 
-  const isActive = (path: string) => pathname === path || pathname.startsWith(path + "/");
+  const isActive = (path: string) => {
+    if (path === '/supercomputer') return pathname === '/' || pathname === '/supercomputer';
+    return pathname.startsWith(path);
+  };
 
   const navItemClass = (active: boolean) =>
     `flex items-center gap-2.5 w-full px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
@@ -32,7 +35,7 @@ export const Sidebar = () => {
       {/* Primary Nav */}
       <div className="flex flex-col gap-0.5 px-2 pt-2">
         {/* New Task */}
-        <Link to="/supercomputer" className={navItemClass(pathname === "/" || pathname === "/supercomputer")}>
+        <Link to="/supercomputer" className={navItemClass(isActive('/supercomputer'))}>
           <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
           </svg>
@@ -41,31 +44,51 @@ export const Sidebar = () => {
 
         {/* Search */}
         <button type="button" className={navItemClass(false)}>
-          <img src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-6.svg" alt="Search" className="w-4 h-4 shrink-0 opacity-60" />
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
           <span>Search</span>
         </button>
 
         {/* Skills */}
         <Link to="/supercomputer/skills" className={navItemClass(isActive("/supercomputer/skills"))}>
-          <img src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-7.svg" alt="Skills" className="w-4 h-4 shrink-0 opacity-60" />
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
           <span>Skills</span>
         </Link>
 
         {/* Connectors */}
         <Link to="/supercomputer/connectors" className={navItemClass(isActive("/supercomputer/connectors"))}>
-          <img src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-8.svg" alt="Connectors" className="w-4 h-4 shrink-0 opacity-60" />
+          {/* Fork/branch shape: top node, line down, splits to two bottom nodes */}
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <circle cx="12" cy="4" r="2" />
+            <circle cx="7" cy="19" r="2" />
+            <circle cx="17" cy="19" r="2" />
+            <line x1="12" y1="6" x2="12" y2="13" strokeLinecap="round" />
+            <line x1="12" y1="13" x2="7" y2="17" strokeLinecap="round" />
+            <line x1="12" y1="13" x2="17" y2="17" strokeLinecap="round" />
+          </svg>
           <span>Connectors</span>
         </Link>
 
         {/* Files */}
         <button type="button" className={navItemClass(false)}>
-          <img src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-9.svg" alt="Files" className="w-4 h-4 shrink-0 opacity-60" />
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <rect x="3" y="3" width="7" height="7" rx="1" />
+            <rect x="14" y="3" width="7" height="7" rx="1" />
+            <rect x="3" y="14" width="7" height="7" rx="1" />
+            <rect x="14" y="14" width="7" height="7" rx="1" />
+          </svg>
           <span>Files</span>
         </button>
 
         {/* Memory */}
         <Link to="/supercomputer/memory" className={navItemClass(isActive("/supercomputer/memory"))}>
-          <img src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-10.svg" alt="Memory" className="w-4 h-4 shrink-0 opacity-60" />
+          {/* Brain/blob shape */}
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 2a4.5 4.5 0 014.5 4.5c0 .173-.01.344-.028.512A4.501 4.501 0 0117 11a4.5 4.5 0 01-1.252 3.115A4.5 4.5 0 0112 22a4.5 4.5 0 01-3.748-6.885A4.5 4.5 0 017 11a4.501 4.501 0 013.028-4.238A4.496 4.496 0 019.5 6.5 4.5 4.5 0 019.5 2z" />
+          </svg>
           <span>Memory</span>
         </Link>
       </div>

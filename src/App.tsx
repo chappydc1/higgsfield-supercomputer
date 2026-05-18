@@ -3,7 +3,6 @@ import { DesktopHeader } from "@/sections/DesktopHeader";
 import { MainWorkspace } from "@/sections/MainWorkspace";
 import { Footer } from "@/sections/Footer";
 import { MobileBottomNav } from "@/sections/MobileBottomNav";
-import { OnboardingModal } from "@/components/OnboardingModal";
 
 export const App = () => {
   return (
@@ -31,7 +30,7 @@ export const App = () => {
         </div>
         <div className="absolute box-border caret-transparent block outline-[3px]"></div>
         <div className="box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px]"></div>
-        <OnboardingModal />
+
       </body>
     </BrowserRouter>
   );

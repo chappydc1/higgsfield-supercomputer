@@ -123,15 +123,15 @@ export const MemoryPage = () => {
   const [memoryInput, setMemoryInput] = useState("");
 
   return (
-    <div className="relative flex flex-col flex-1 min-h-0 bg-[radial-gradient(ellipse_at_center,_rgba(30,30,35,1)_0%,_rgba(10,10,12,1)_100%)]">
+    <div className="relative flex flex-col flex-1 min-h-0 bg-[#131517]">
       <PanelTopBar activePage="memory" rightContent={<MemoryTopBarRight />} />
 
       {/* Main area */}
       <div className="relative flex-1 overflow-hidden">
         {/* Center text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 pointer-events-none z-0">
-          <h1 className="text-white text-2xl font-semibold tracking-tight">Supercomputer memory</h1>
-          <p className="text-white/40 text-sm">Learning from every chat</p>
+          <h1 className="text-[#f7f7f8] text-2xl font-semibold tracking-tight">Supercomputer memory</h1>
+          <p className="text-[#898a8b] text-sm">Learning from every chat</p>
         </div>
 
         {/* Graph visualization */}
@@ -167,7 +167,7 @@ export const MemoryPage = () => {
       </div>
 
       {/* Bottom input bar */}
-      <div className="flex items-center gap-2 px-4 py-3 border-t border-white/5 bg-zinc-900/60 backdrop-blur-sm shrink-0">
+      <div className="flex items-center gap-2 px-4 py-3 border-t border-[rgba(217,217,217,0.04)] bg-[#151517] shrink-0">
         <button
           type="button"
           className="flex items-center justify-center w-8 h-8 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-white/50 transition-colors shrink-0"

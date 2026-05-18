@@ -245,7 +245,7 @@ export const ConnectorsPage = () => {
   const filteredRight = filterConnectors(rightConnectors);
 
   return (
-    <div className="relative flex flex-col flex-1 min-h-0 bg-[radial-gradient(ellipse_at_center,_rgba(30,30,35,1)_0%,_rgba(10,10,12,1)_100%)]">
+    <div className="relative flex flex-col flex-1 min-h-0 bg-[#131517]">
       <PanelTopBar activePage="connectors" />
 
       {/* Main area */}
@@ -265,8 +265,8 @@ export const ConnectorsPage = () => {
 
         {/* Heading */}
         <div className="flex flex-col items-center gap-1 text-center">
-          <h1 className="text-white text-2xl font-semibold tracking-tight">Install Connectors</h1>
-          <p className="text-white/40 text-sm">for context in Supercomputer</p>
+          <h1 className="text-[#f7f7f8] text-2xl font-semibold tracking-tight">Install Connectors</h1>
+          <p className="text-[#898a8b] text-sm">for context in Supercomputer</p>
         </div>
 
         {/* Tabs + Search row */}
@@ -277,7 +277,7 @@ export const ConnectorsPage = () => {
               onClick={() => setActiveTab("available")}
               className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
                 activeTab === "available"
-                  ? "bg-white/15 text-white"
+                  ? "bg-white/10 text-white"
                   : "text-white/50 hover:text-white/80"
               }`}
             >
@@ -288,7 +288,7 @@ export const ConnectorsPage = () => {
               onClick={() => setActiveTab("installed")}
               className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
                 activeTab === "installed"
-                  ? "bg-white/15 text-white"
+                  ? "bg-white/10 text-white"
                   : "text-white/50 hover:text-white/80"
               }`}
             >

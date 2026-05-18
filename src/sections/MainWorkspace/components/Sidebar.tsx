@@ -11,14 +11,14 @@ export const Sidebar = () => {
   const navItemClass = (active: boolean) =>
     `flex items-center gap-2.5 w-full px-3 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
       active
-        ? "bg-white/10 text-white"
-        : "text-white/60 hover:text-white/90 hover:bg-white/5"
+        ? "bg-white/10 text-[#f7f7f8]"
+        : "text-[#f7f7f8]/50 hover:text-[#f7f7f8]/90 hover:bg-white/5"
     }`;
 
   return (
-    <div className="hidden md:flex flex-col bg-zinc-900 border-r border-white/5 shrink-0 h-full overflow-hidden" style={{ width: 160 }}>
+    <div className="hidden md:flex flex-col bg-[#151517] border-r border-[rgba(217,217,217,0.04)] shrink-0 h-full overflow-hidden" style={{ width: 160 }}>
       {/* Header */}
-      <div className="flex items-center gap-2 px-3 py-3 border-b border-white/5">
+      <div className="flex items-center gap-2 px-3 py-3 border-b border-[rgba(217,217,217,0.04)]">
         <div className="flex items-center justify-center w-6 h-6 rounded-md bg-white/10 shrink-0">
           <img
             src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-4.svg"
@@ -119,18 +119,18 @@ export const Sidebar = () => {
       <div className="flex-1" />
 
       {/* Bottom controls */}
-      <div className="flex flex-col gap-2 p-2 border-t border-white/5">
+      <div className="flex flex-col gap-2 p-2 border-t border-[rgba(217,217,217,0.04)]">
         {/* Pricing pill */}
         <a
           href="/supercomputer/pricing"
-          className="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-full bg-cyan-400/15 hover:bg-cyan-400/25 transition-colors"
+          className="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(156,230,243,0.2)] hover:bg-[rgba(156,230,243,0.3)] border border-[#9ce6f3]/30 transition-colors"
         >
           <img
             src="https://c.animaapp.com/mpaqnk8rhqfcCD/assets/icon-11.svg"
             alt="Pricing"
-            className="w-3.5 h-3.5 text-cyan-200"
+            className="w-3.5 h-3.5"
           />
-          <span className="text-cyan-200 text-xs font-semibold whitespace-nowrap">Pricing 30% OFF</span>
+          <span className="text-[#9ce6f3] text-xs font-semibold whitespace-nowrap">Pricing 30% OFF</span>
         </a>
 
         {/* User row */}

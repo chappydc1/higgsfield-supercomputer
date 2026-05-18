@@ -2,54 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "Frontend (Next.js)",
+      "name": "Vite Dev",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
-      "cwd": "frontend",
-      "port": 3000,
-      "autoPort": true,
-      "env": {
-        "BACKEND_API_URL": "http://localhost:8000",
-        "NEXT_PUBLIC_BACKEND_API_URL": "http://localhost:8000"
-      }
-    },
-    {
-      "name": "Backend (FastAPI)",
-      "runtimeExecutable": "/Users/chappy/Downloads/old/chappy2/coding/backup/dwilar/lita-ehousing/.claude/worktrees/vigorous-lewin-c1ff84/backend/.venv/bin/python",
-      "runtimeArgs": ["-m", "uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"],
-      "cwd": "backend",
-      "port": 8000,
-      "env": {
-        "INTAKE_CANONICAL_TRANSACTIONS_READ": "true"
-      }
-    },
-    {
-      "name": "US API",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "cwd": "services/us-api",
-      "port": 8080
-    },
-    {
-      "name": "Consent Service",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "start"],
-      "cwd": "services/consent-service",
-      "port": 8081
-    },
-    {
-      "name": "Scoring Orchestrator",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "start"],
-      "cwd": "services/scoring-orchestrator",
-      "port": 8082
-    },
-    {
-      "name": "Housing Label Service",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "cwd": "platform/housing-label-service",
-      "port": 3000
+      "port": 5173
     }
   ]
 }

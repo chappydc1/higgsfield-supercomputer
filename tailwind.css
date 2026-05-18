@@ -1,3 +1,4 @@
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -137,8 +138,6 @@
   font-style: normal;
 }
 
-@tailwind base;
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -212,8 +211,15 @@
     @apply border-border;
   }
 
+  html, body, #app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    background-color: #131517;
+    color: #f7f7f8;
     font-feature-settings:
       'rlig' 1,
       'calt' 1;

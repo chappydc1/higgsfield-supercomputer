@@ -85,7 +85,7 @@ export const SkillsPage = () => {
   const [activeTab, setActiveTab] = useState<"my" | "community">("my");
 
   return (
-    <div className="relative flex flex-col flex-1 min-h-0 bg-[radial-gradient(ellipse_at_center,_rgba(30,30,35,1)_0%,_rgba(10,10,12,1)_100%)]">
+    <div className="relative flex flex-col flex-1 min-h-0 bg-[#131517]">
       <PanelTopBar activePage="skills" rightContent={<SkillsTopBarRight />} />
 
       {/* Main area */}
@@ -126,8 +126,8 @@ export const SkillsPage = () => {
 
         {/* Heading */}
         <div className="flex flex-col items-center gap-1 text-center">
-          <h1 className="text-white text-2xl font-semibold tracking-tight">Install Skills</h1>
-          <p className="text-white/40 text-sm">to evolve Supercomputer</p>
+          <h1 className="text-[#f7f7f8] text-2xl font-semibold tracking-tight">Install Skills</h1>
+          <p className="text-[#898a8b] text-sm">to evolve Supercomputer</p>
         </div>
 
         {/* My skills / Community tabs */}
@@ -137,7 +137,7 @@ export const SkillsPage = () => {
             onClick={() => setActiveTab("my")}
             className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
               activeTab === "my"
-                ? "bg-white/15 text-white"
+                ? "bg-white/10 text-white"
                 : "text-white/50 hover:text-white/80"
             }`}
           >
@@ -148,7 +148,7 @@ export const SkillsPage = () => {
             onClick={() => setActiveTab("community")}
             className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
               activeTab === "community"
-                ? "bg-white/15 text-white"
+                ? "bg-white/10 text-white"
                 : "text-white/50 hover:text-white/80"
             }`}
           >

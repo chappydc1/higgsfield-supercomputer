@@ -15,10 +15,10 @@ export const PanelTopBar = ({ activePage, rightContent }: PanelTopBarProps) => {
   ];
 
   return (
-    <div className="flex items-center justify-between px-4 py-2 border-b border-white/5 bg-zinc-900/80 backdrop-blur-sm shrink-0">
+    <div className="flex items-center justify-between px-4 py-2 border-b border-[rgba(217,217,217,0.04)] bg-[#131517] shrink-0">
       {/* Left: Your OS label */}
       <div className="flex items-center">
-        <span className="text-white/50 text-xs font-medium bg-white/5 px-2.5 py-1 rounded-full border border-white/10">
+        <span className="text-white/70 text-xs font-medium bg-white/5 px-2.5 py-1 rounded-full border border-white/10">
           Your OS
         </span>
       </div>
@@ -31,8 +31,8 @@ export const PanelTopBar = ({ activePage, rightContent }: PanelTopBarProps) => {
             to={tab.path}
             className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
               activePage === tab.id
-                ? "bg-white/15 text-white"
-                : "text-white/50 hover:text-white/80"
+                ? "bg-white/10 text-white"
+                : "text-[#f7f7f8]/50 hover:text-white/80"
             }`}
           >
             {tab.label}

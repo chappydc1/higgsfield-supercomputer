@@ -7,6 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "sc-bg": "#131517",
+        "sc-sidebar": "#151517",
+        "sc-surface": "#1a1a1c",
+        "sc-card": "#1c1c1e",
+        "sc-text": "#f7f7f8",
+        "sc-muted": "#898a8b",
+        "sc-cyan": "#9ce6f3",
+        "sc-gold": "#f2c94c",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -176,10 +184,17 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "supercomputer-dot": {
+          "0%, 100%": { opacity: "0.3", transform: "scale(0.8)" },
+          "50%": { opacity: "1", transform: "scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "supercomputer-dot": "supercomputer-dot 1.45s ease-in-out infinite",
+        "supercomputer-dot-2": "supercomputer-dot 1.45s ease-in-out 0.16s infinite",
+        "supercomputer-dot-3": "supercomputer-dot 1.45s ease-in-out 0.32s infinite",
       },
     },
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },

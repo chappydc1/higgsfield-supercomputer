@@ -1,0 +1,32 @@
+{
+  "_note": "Reference: ACTUAL PowerCred KTP/v3 response for the residence-card image.png fixture. Captured from the dashboard at app.powercred.io. Used to design the mock + mapper.",
+  "ktp": {
+    "ktp": [
+      {
+        "nik": "N/A",
+        "city": "千代田区",
+        "rt/rw": "N/A",
+        "state": "東京都",
+        "gender": "女",
+        "address": "東京都千代田区霞が関1丁目1番1号霞が関ハイツ202号",
+        "district": "N/A",
+        "religion": "N/A",
+        "full_name": "TURNER ELIZABETH",
+        "blood_type": "N/A",
+        "occupation": "留学",
+        "nationality": "米国",
+        "date_of_birth": "31-12-1985",
+        "marital_status": "N/A",
+        "place_of_birth": "N/A",
+        "administrative_village": "霞が関"
+      }
+    ],
+    "image_quality": {
+      "taken_from_screen": false,
+      "flash_detection": true,
+      "blur_image": true,
+      "dpi": 72,
+      "brightness": 66
+    }
+  }
+}

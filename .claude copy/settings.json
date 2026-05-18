@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(*)",
+      "Edit",
+      "Write",
+      "Read",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "Agent(*)",
+      "TodoWrite",
+      "mcp__Claude_Preview__*",
+      "mcp__Claude_in_Chrome__*",
+      "mcp__ccd_session__*",
+      "mcp__ccd_directory__*",
+      "mcp__mcp-registry__*",
+      "mcp__scheduled-tasks__*"
+    ]
+  },
+  "worktree": {
+    "symlinkDirectories": ["frontend/node_modules"]
+  }
+}

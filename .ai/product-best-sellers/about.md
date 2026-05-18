@@ -1,0 +1,2 @@
+The storefront has dedicated App Router pages for a product detail experience and a best-seller collection. The shared layout owns global chrome, footer, drawers, modals, support widgets, embeds, and global CSS, while individual routes own their main page content. The homepage keeps the existing composed landing experience, the product route presents a focused PDP, and the best-sellers route presents a shoppable collection grid that links into the PDP.
+

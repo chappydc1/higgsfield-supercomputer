@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { PanelTopBar } from "@/sections/MainWorkspace/components/PanelTopBar";
 

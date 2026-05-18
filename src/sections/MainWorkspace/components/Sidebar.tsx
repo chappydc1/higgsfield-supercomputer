@@ -1,7 +1,10 @@
-import { Link, useLocation } from "react-router-dom";
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const Sidebar = () => {
-  const { pathname } = useLocation();
+  const pathname = usePathname();
 
   const isActive = (path: string) => {
     if (path === '/supercomputer') return pathname === '/' || pathname === '/supercomputer';
@@ -35,7 +38,7 @@ export const Sidebar = () => {
       {/* Primary Nav */}
       <div className="flex flex-col gap-0.5 px-2 pt-2">
         {/* New Task */}
-        <Link to="/supercomputer" className={navItemClass(isActive('/supercomputer'))}>
+        <Link href="/supercomputer" className={navItemClass(isActive('/supercomputer'))}>
           <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
           </svg>
@@ -51,7 +54,7 @@ export const Sidebar = () => {
         </button>
 
         {/* Skills */}
-        <Link to="/supercomputer/skills" className={navItemClass(isActive("/supercomputer/skills"))}>
+        <Link href="/supercomputer/skills" className={navItemClass(isActive("/supercomputer/skills"))}>
           <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
@@ -59,7 +62,7 @@ export const Sidebar = () => {
         </Link>
 
         {/* Connectors */}
-        <Link to="/supercomputer/connectors" className={navItemClass(isActive("/supercomputer/connectors"))}>
+        <Link href="/supercomputer/connectors" className={navItemClass(isActive("/supercomputer/connectors"))}>
           {/* Fork/branch shape: top node, line down, splits to two bottom nodes */}
           <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <circle cx="12" cy="4" r="2" />
@@ -84,7 +87,7 @@ export const Sidebar = () => {
         </button>
 
         {/* Memory */}
-        <Link to="/supercomputer/memory" className={navItemClass(isActive("/supercomputer/memory"))}>
+        <Link href="/supercomputer/memory" className={navItemClass(isActive("/supercomputer/memory"))}>
           {/* Brain/blob shape */}
           <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 2a4.5 4.5 0 014.5 4.5c0 .173-.01.344-.028.512A4.501 4.501 0 0117 11a4.5 4.5 0 01-1.252 3.115A4.5 4.5 0 0112 22a4.5 4.5 0 01-3.748-6.885A4.5 4.5 0 017 11a4.501 4.501 0 013.028-4.238A4.496 4.496 0 019.5 6.5 4.5 4.5 0 019.5 2z" />

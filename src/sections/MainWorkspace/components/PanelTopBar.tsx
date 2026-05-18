@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import Link from "next/link";
 
 type ActivePage = "skills" | "memory" | "connectors";
 
@@ -28,7 +28,7 @@ export const PanelTopBar = ({ activePage, rightContent }: PanelTopBarProps) => {
         {tabs.map((tab) => (
           <Link
             key={tab.id}
-            to={tab.path}
+            href={tab.path}
             className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
               activePage === tab.id
                 ? "bg-white/10 text-white"
